@@ -1,4 +1,4 @@
-🌱Overview
+🌟Overview
 
 This project is an AI-powered crop recommendation system designed to assist farmers and greenhouse owners in making informed decisions about crop selection and resource planning.
 The system collects user inputs such as location, weather conditions, greenhouse area, available water per day, and fertilizer type.
@@ -50,4 +50,5 @@ This provides users with actionable insights to maximize yield and profitability
 -Reduces risks of crop failure due to unsuitable conditions
 
 -Enhances sustainable and data-driven agriculture
+
 
