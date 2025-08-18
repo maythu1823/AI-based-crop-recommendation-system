@@ -1,0 +1,993 @@
+{
+    "apple": [
+        {
+            "stage": "Dormancy",
+            "duration": 90
+        },
+        {
+            "stage": "Bud Swell & Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Set",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        },
+        {
+            "stage": "Harvest",
+            "duration": 30
+        }
+    ],
+    
+    "avocado": [
+        {
+            "stage": "Germination",
+            "duration": 30
+        },
+        {
+            "stage": "Juvenile Growth",
+            "duration": 1095
+        },
+        {
+            "stage": "Flowering",
+            "duration": 90
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 300
+        },
+        {
+            "stage": "Ripening",
+            "duration": 90
+        }
+    ],
+    "banana": [
+        {
+            "stage": "Establishment",
+            "duration": 60
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 210
+        },
+        {
+            "stage": "Flowering",
+            "duration": 90
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        }
+    ],
+    
+    "beans": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 21
+        },
+        {
+            "stage": "Flowering",
+            "duration": 14
+        },
+        {
+            "stage": "Pod Development",
+            "duration": 18
+        }
+    ],
+    "betel": [
+        {
+            "stage": "Establishment",
+            "duration": 45
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 90
+        },
+        {
+            "stage": "Continuous Harvest",
+            "duration": 1825
+        }
+    ],
+    
+    "cabbage": [
+        {
+            "stage": "Germination",
+            "duration": 6
+        },
+        {
+            "stage": "Seedling",
+            "duration": 24
+        },
+        {
+            "stage": "Head Formation",
+            "duration": 50
+        },
+        {
+            "stage": "Harvest",
+            "duration": 20
+        }
+    ],
+    "cardamom": [
+        {
+            "stage": "Establishment",
+            "duration": 365
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 730
+        },
+        {
+            "stage": "Flowering & Fruiting",
+            "duration": 120
+        }
+    ],
+    "carrot": [
+        {
+            "stage": "Germination",
+            "duration": 14
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 60
+        },
+        {
+            "stage": "Root Enlargement",
+            "duration": 50
+        },
+        {
+            "stage": "Harvest",
+            "duration": 20
+        }
+    ],
+    "cashew": [
+        {
+            "stage": "Juvenile",
+            "duration": 1095
+        },
+        {
+            "stage": "First Flowering",
+            "duration": 365
+        },
+        {
+            "stage": "Fruit & Nut Development",
+            "duration": 75
+        }
+    ],
+    "chili": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Seedling",
+            "duration": 35
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 40
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 40
+        },
+        {
+            "stage": "Maturity & Curing",
+            "duration": 14
+        }
+    ],
+    "coconut": [
+        {
+            "stage": "Juvenile",
+            "duration": 1825
+        },
+        {
+            "stage": "First Flowering",
+            "duration": 365
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 330
+        }
+    ],
+    "coffee": [
+        {
+            "stage": "Establishment",
+            "duration": 1095
+        },
+        {
+            "stage": "First Flowering",
+            "duration": 365
+        },
+        {
+            "stage": "Cherry Development",
+            "duration": 240
+        }
+    ],
+    "coriander": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 30
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Seed Maturation",
+            "duration": 30
+        }
+    ],
+    "cotton": [
+        {
+            "stage": "Germination",
+            "duration": 8
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 25
+        },
+        {
+            "stage": "Boll Development",
+            "duration": 55
+        }
+    ],
+    "damson (plum)": [
+        {
+            "stage": "Flowering",
+            "duration": 14
+        },
+        {
+            "stage": "Fruit Set",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 90
+        },
+        {
+            "stage": "Ripening",
+            "duration": 30
+        }
+    ],
+    "durian": [
+        {
+            "stage": "Flowering",
+            "duration": 45
+        },
+        {
+            "stage": "Fruit Set",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        }
+    ],
+    "eggplant": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Seedling",
+            "duration": 30
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 45
+        }
+    ],
+    "garlic": [
+        {
+            "stage": "Germination",
+            "duration": 14
+        },
+        {
+            "stage": "Leaf Growth",
+            "duration": 60
+        },
+        {
+            "stage": "Bulb Development",
+            "duration": 50
+        },
+        {
+            "stage": "Curing",
+            "duration": 14
+        }
+    ],
+    "ginger": [
+        {
+            "stage": "Sprouting",
+            "duration": 45
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 90
+        },
+        {
+            "stage": "Rhizome Development",
+            "duration": 120
+        }
+    ],
+    "groundnut": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 30
+        },
+        {
+            "stage": "Flowering & Pegging",
+            "duration": 35
+        },
+        {
+            "stage": "Pod Development",
+            "duration": 55
+        }
+    ],
+    
+    "guava": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        },
+        {
+            "stage": "Ripening",
+            "duration": 30
+        }
+    ],
+    "jute": [
+        {
+            "stage": "Germination",
+            "duration": 5
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 45
+        },
+        {
+            "stage": "Fibre Development",
+            "duration": 60
+        },
+        {
+            "stage": "Harvest",
+            "duration": 15
+        }
+    ],
+    "konjac": [
+        {
+            "stage": "Shoot Emergence",
+            "duration": 30
+        },
+        {
+            "stage": "Tuber Expansion",
+            "duration": 210
+        },
+        {
+            "stage": "Dormancy",
+            "duration": 120
+        }
+    ],
+    "legumes": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Pod Development",
+            "duration": 35
+        }
+    ],
+    "lime": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 150
+        },
+        {
+            "stage": "Ripening",
+            "duration": 60
+        }
+    ],
+    "logan fruit": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Set",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        },
+        {
+            "stage": "Ripening",
+            "duration": 30
+        }
+    ],
+    "maize": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 50
+        },
+        {
+            "stage": "Tasseling & Silking",
+            "duration": 15
+        },
+        {
+            "stage": "Kernel Development",
+            "duration": 25
+        }
+    ],
+    "mango": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Set",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        },
+        {
+            "stage": "Ripening & Harvest",
+            "duration": 60
+        }
+    ],
+    "mangosteen": [
+        {
+            "stage": "Juvenile",
+            "duration": 1460
+        },
+        {
+            "stage": "Flowering",
+            "duration": 60
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 150
+        },
+        {
+            "stage": "Ripening",
+            "duration": 30
+        }
+    ],
+    "millet": [
+        {
+            "stage": "Germination",
+            "duration": 4
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 30
+        },
+        {
+            "stage": "Flowering",
+            "duration": 15
+        },
+        {
+            "stage": "Grain Filling",
+            "duration": 30
+        }
+    ],
+    "mulberry": [
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 40
+        },
+        {
+            "stage": "Ripening",
+            "duration": 20
+        }
+    ],
+    "niger seeds": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Seed Development",
+            "duration": 35
+        }
+    ],
+    "onion": [
+        {
+            "stage": "Germination",
+            "duration": 14
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 45
+        },
+        {
+            "stage": "Bulb Initiation",
+            "duration": 15
+        },
+        {
+            "stage": "Bulb Development",
+            "duration": 60
+        },
+        {
+            "stage": "Maturity & Curing",
+            "duration": 14
+        }
+    ],
+    "orange": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 210
+        },
+        {
+            "stage": "Ripening",
+            "duration": 60
+        }
+    ],
+    "papaya": [
+        {
+            "stage": "Germination",
+            "duration": 14
+        },
+        {
+            "stage": "Seedling",
+            "duration": 45
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 120
+        },
+        {
+            "stage": "Flowering & Fruit Set",
+            "duration": 170
+        },
+        {
+            "stage": "Ripening",
+            "duration": 14
+        }
+    ],
+    "peanut": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 30
+        },
+        {
+            "stage": "Flowering & Pegging",
+            "duration": 35
+        },
+        {
+            "stage": "Pod Development",
+            "duration": 55
+        }
+    ],
+    
+    "pomelo": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 240
+        },
+        {
+            "stage": "Ripening",
+            "duration": 60
+        }
+    ],
+    "potato": [
+        {
+            "stage": "Sprouting",
+            "duration": 21
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 35
+        },
+        {
+            "stage": "Tuber Initiation",
+            "duration": 20
+        },
+        {
+            "stage": "Tuber Bulking",
+            "duration": 50
+        }
+    ],
+    "pulses": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Pod Development",
+            "duration": 35
+        }
+    ],
+    "pumpkin": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Vine Growth",
+            "duration": 30
+        },
+        {
+            "stage": "Flowering",
+            "duration": 15
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 45
+        },
+        {
+            "stage": "Ripening",
+            "duration": 15
+        }
+    ],
+    "rambutan": [
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Set",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 120
+        },
+        {
+            "stage": "Ripening",
+            "duration": 30
+        }
+    ],
+    "rice": [
+        {
+            "stage": "Germination",
+            "duration": 15
+        },
+        {
+            "stage": "Tillering",
+            "duration": 30
+        },
+        {
+            "stage": "Panicle Initiation",
+            "duration": 32
+        },
+        {
+            "stage": "Heading/Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Ripening",
+            "duration": 45
+        }
+    ],
+    "rubber": [
+        {
+            "stage": "Immature",
+            "duration": 2190
+        },
+        {
+            "stage": "Tapping Stage",
+            "duration": 9125
+        }
+    ],
+    "sesame": [
+        {
+            "stage": "Germination",
+            "duration": 5
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Capsule Development",
+            "duration": 35
+        }
+    ],
+    "soyabean": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 45
+        },
+        {
+            "stage": "Flowering",
+            "duration": 25
+        },
+        {
+            "stage": "Pod Development & Ripening",
+            "duration": 30
+        }
+    ],
+    "spinach": [
+        {
+            "stage": "Germination",
+            "duration": 6
+        },
+        {
+            "stage": "Leaf Growth",
+            "duration": 30
+        },
+        {
+            "stage": "Harvest",
+            "duration": 14
+        }
+    ],
+    "strawberry": [
+        {
+            "stage": "Establishment",
+            "duration": 21
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 45
+        },
+        {
+            "stage": "Flowering",
+            "duration": 15
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 30
+        }
+    ],
+    "sugarcane": [
+        {
+            "stage": "Germination",
+            "duration": 32
+        },
+        {
+            "stage": "Tillering",
+            "duration": 75
+        },
+        {
+            "stage": "Grand Growth",
+            "duration": 150
+        },
+        {
+            "stage": "Maturity",
+            "duration": 108
+        }
+    ],
+    "sunflower": [
+        {
+            "stage": "Germination & Establishment",
+            "duration": 10
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 40
+        },
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Seed Development & Maturation",
+            "duration": 30
+        }
+    ],
+    "tamarind": [
+        {
+            "stage": "Juvenile",
+            "duration": 1460
+        },
+        {
+            "stage": "Flowering",
+            "duration": 30
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 210
+        },
+        {
+            "stage": "Ripening",
+            "duration": 60
+        }
+    ],
+    "tea": [
+        {
+            "stage": "Establishment",
+            "duration": 1095
+        },
+        {
+            "stage": "Productive Phase",
+            "duration": 9125
+        }
+    ],
+    "tobacco": [
+        {
+            "stage": "Germination",
+            "duration": 10
+        },
+        {
+            "stage": "Seedling",
+            "duration": 40
+        },
+        {
+            "stage": "Leaf Expansion",
+            "duration": 60
+        },
+        {
+            "stage": "Curing",
+            "duration": 20
+        }
+    ],
+    "toddy palm": [
+        {
+            "stage": "Juvenile",
+            "duration": 1825
+        },
+        {
+            "stage": "First Flowering",
+            "duration": 365
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 240
+        }
+    ],
+    "tomato": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Seedling",
+            "duration": 21
+        },
+        {
+            "stage": "Vegetative",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 14
+        },
+        {
+            "stage": "Fruit Development",
+            "duration": 45
+        }
+    ],
+    "turmeric": [
+        {
+            "stage": "Sprouting",
+            "duration": 25
+        },
+        {
+            "stage": "Vegetative Growth",
+            "duration": 90
+        },
+        {
+            "stage": "Rhizome Development",
+            "duration": 120
+        },
+        {
+            "stage": "Harvest",
+            "duration": 45
+        }
+    ],
+    "watermelon": [
+        {
+            "stage": "Germination",
+            "duration": 7
+        },
+        {
+            "stage": "Vine Growth",
+            "duration": 35
+        },
+        {
+            "stage": "Flowering",
+            "duration": 15
+        },
+        {
+            "stage": "Fruit Set & Development",
+            "duration": 40
+        }
+    ],
+    "wheat": [
+        {
+            "stage": "Germination & Tillering",
+            "duration": 30
+        },
+        {
+            "stage": "Stem Elongation",
+            "duration": 40
+        },
+        {
+            "stage": "Flowering",
+            "duration": 20
+        },
+        {
+            "stage": "Ripening",
+            "duration": 30
+        }
+    ]
+}

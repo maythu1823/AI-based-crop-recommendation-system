@@ -1,0 +1,10 @@
+crop_name,optimal_temperature,optimal_rainfall,optimal_humidity,market_demand
+Rice,28.0,1000.0,80.0,0.9
+Maize,25.0,500.0,70.0,0.8
+Soybean,24.0,600.0,75.0,0.7
+Cotton,27.0,700.0,65.0,0.6
+Groundnut,26.0,800.0,70.0,0.5
+Sorghum,23.0,400.0,60.0,0.4
+Millet,24.0,500.0,65.0,0.3
+Wheat,22.0,300.0,70.0,0.2
+Barley,21.0,400.0,65.0,0.1

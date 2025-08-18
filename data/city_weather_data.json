@@ -1,0 +1,107 @@
+{
+    "pyin_oo_lwin": {
+        "description": "Mountain resort town with cool climate",
+        "temperature_range": [15, 25],
+        "humidity_range": [70, 85],
+        "rainfall": "moderate",
+        "suitable_crops": ["Tea", "Coffee", "Cardamom", "Citrus", "Peach", "Plum", "Apple", "Strawberry", "Blueberry"]
+    },
+    "mandalay": {
+        "description": "Central Myanmar's largest city",
+        "temperature_range": [25, 35],
+        "humidity_range": [50, 70],
+        "rainfall": "moderate",
+        "suitable_crops": ["Rice", "Maize", "Soybean", "Sesame", "Groundnut", "Chickpea", "Tomato", "Cucumber", "Bean", "Pea"]
+    },
+    "yangon": {
+        "description": "Capital city with tropical climate",
+        "temperature_range": [25, 35],
+        "humidity_range": [70, 90],
+        "rainfall": "high",
+        "suitable_crops": ["Coconut", "Mango", "Banana", "Palm Oil", "Sugarcane", "Rice", "Papaya", "Dragon Fruit", "Avocado", "Guava"]
+    },
+    "mawlamyine": {
+        "description": "Coastal city with high rainfall",
+        "temperature_range": [25, 35],
+        "humidity_range": [75, 95],
+        "rainfall": "very high",
+        "suitable_crops": ["Coconut", "Mango", "Banana", "Palm Oil", "Sugarcane", "Rice", "Rubber", "Tapioca", "Cassava", "Pineapple"]
+    },
+    "bago": {
+        "description": "Central dry zone",
+        "temperature_range": [25, 40],
+        "humidity_range": [30, 60],
+        "rainfall": "low",
+        "suitable_crops": ["Chickpea", "Groundnut", "Sesame", "Pigeon Pea", "Millet", "Sorghum", "Sunflower", "Safflower", "Castor", "Mustard"]
+    },
+    "naypyidaw": {
+        "description": "Modern capital city with moderate climate",
+        "temperature_range": [25, 35],
+        "humidity_range": [50, 70],
+        "rainfall": "moderate",
+        "suitable_crops": ["Rice", "Maize", "Soybean", "Sesame", "Groundnut", "Bean", "Pea", "Tomato", "Cucumber", "Capsicum"]
+    },
+    "taunggyi": {
+        "description": "Highland city with cool climate",
+        "temperature_range": [15, 25],
+        "humidity_range": [60, 80],
+        "rainfall": "moderate",
+        "suitable_crops": ["Tea", "Coffee", "Citrus", "Apple", "Strawberry", "Blueberry", "Potato", "Garlic", "Onion"]
+    },
+    "kalay": {
+        "description": "Northern city with moderate climate",
+        "temperature_range": [20, 30],
+        "humidity_range": [60, 80],
+        "rainfall": "moderate",
+        "suitable_crops": ["Rice", "Maize", "Soybean", "Sesame", "Groundnut", "Bean", "Pea", "Tomato", "Cucumber", "Capsicum"]
+    },
+    "sittwe": {
+        "description": "Coastal city with tropical climate",
+        "temperature_range": [25, 35],
+        "humidity_range": [70, 90],
+        "rainfall": "high",
+        "suitable_crops": ["Coconut", "Mango", "Banana", "Palm Oil", "Sugarcane", "Rice", "Rubber", "Tapioca", "Cassava", "Pineapple"]
+    },
+    "myitkyina": {
+        "description": "Northern city with moderate climate",
+        "temperature_range": [20, 30],
+        "humidity_range": [60, 80],
+        "rainfall": "high",
+        "suitable_crops": ["Tea", "Coffee", "Citrus", "Apple", "Strawberry", "Blueberry", "Potato", "Garlic", "Onion", "Bean"]
+    },
+    "lashio": {
+        "description": "Mountainous city with cool climate",
+        "temperature_range": [15, 25],
+        "humidity_range": [70, 85],
+        "rainfall": "moderate",
+        "suitable_crops": ["Tea", "Coffee", "Cardamom", "Citrus", "Peach", "Plum", "Apple", "Strawberry", "Blueberry", "Potato"]
+    },
+    "monywa": {
+        "description": "Central city with moderate climate",
+        "temperature_range": [25, 35],
+        "humidity_range": [50, 70],
+        "rainfall": "moderate",
+        "suitable_crops": ["Rice", "Maize", "Soybean", "Sesame", "Groundnut", "Bean", "Pea", "Tomato", "Cucumber", "Capsicum"]
+    },
+    "taungoo": {
+        "description": "Central dry zone city",
+        "temperature_range": [25, 40],
+        "humidity_range": [30, 60],
+        "rainfall": "low",
+        "suitable_crops": ["Chickpea", "Groundnut", "Sesame", "Pigeon Pea", "Millet", "Sorghum", "Sunflower", "Safflower", "Castor", "Mustard"]
+    },
+    "meiktila": {
+        "description": "Central city with moderate climate",
+        "temperature_range": [25, 35],
+        "humidity_range": [50, 70],
+        "rainfall": "moderate",
+        "suitable_crops": ["Rice", "Maize", "Soybean", "Sesame", "Groundnut", "Bean", "Pea", "Tomato", "Cucumber", "Capsicum"]
+    },
+    "thaunggyi": {
+        "description": "Highland city with cool climate",
+        "temperature_range": [15, 25],
+        "humidity_range": [60, 80],
+        "rainfall": "moderate",
+        "suitable_crops": ["Tea", "Coffee", "Citrus", "Apple", "Strawberry", "Blueberry", "Potato", "Garlic", "Onion", "Bean"]
+    }
+}

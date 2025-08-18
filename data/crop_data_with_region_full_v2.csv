@@ -1,0 +1,15 @@
+crop_name,optimal_temperature,optimal_rainfall,optimal_humidity,market_demand,region,water_availability,fertilizer_type
+rice,27,1200,80,high,central_plain,5000,both
+onion,25,1000,75,high,central_plain,5000,both
+watermelon,26,1100,78,medium,central_plain,5000,both
+beans,24,900,70,medium,central_plain,5000,both
+corn,28,1000,78,medium,central_plain,5000,both
+tea,22,1500,85,medium,hillside,3000,organic
+coffee,23,1400,80,medium,hillside,3000,organic
+pineapple,27,1200,75,medium,hillside,3000,organic
+strawberry,20,1300,80,medium,hillside,3000,organic
+coconut,28,2000,85,high,coastal,4000,both
+mango,30,1800,80,high,coastal,4000,both
+banana,29,1900,85,high,coastal,4000,both
+palm oil,28,2100,88,medium,coastal,4000,both
+sugarcane,30,2200,80,medium,coastal,4000,both

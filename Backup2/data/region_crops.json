@@ -1,0 +1,18 @@
+{
+    "hillside": {
+        "crops": ["Tea", "Coffee", "Cardamom", "Citrus", "Peach", "Plum"],
+        "description": "Suitable for mountainous areas with cooler temperatures and higher elevation"
+    },
+    "central_plain": {
+        "crops": ["Rice", "Maize", "Soybean", "Sesame", "Groundnut", "Chickpea"],
+        "description": "Ideal for flat, fertile plains with good irrigation"
+    },
+    "coastal": {
+        "crops": ["Coconut", "Mango", "Banana", "Palm Oil", "Sugarcane", "Rice"],
+        "description": "Best for areas with high rainfall and coastal climate"
+    },
+    "dry_zone": {
+        "crops": ["Chickpea", "Groundnut", "Sesame", "Pigeon Pea", "Millet", "Sorghum"],
+        "description": "Suitable for areas with low rainfall and higher temperatures"
+    }
+}

@@ -1,0 +1,4 @@
+/* Dark theme overrides (minimal; actual colors defined via CSS variables in main stylesheet) */
+body.dark-mode {
+    background-color: #121212 !important;
+} 

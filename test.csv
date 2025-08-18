@@ -1,0 +1,331 @@
+Region,Latitude,Longitude,Suitable_Crops,Water_Availability_LPD,Fertilizer_Type,Market_Price_Range_MMK
+Magway,24.634317,93.742631,"Beans, Groundnut, Sesame",1614,Hybrid,1166 – 3204
+Rakhine,18.225729,95.170232,"Rice, Chili, Areca Nut",1308,Hybrid,1043 – 3358
+Tanintharyi,13.534443,93.727337,"Durian, Oil Palm, Rubber",1459,Hybrid,721 – 1773
+Sagaing,9.938186,96.985359,"Wheat, Maize, Peanut",1475,Chemical,889 – 2646
+Yangon,21.249334,95.633389,"Paddy, Flowers, Vegetables",1484,Chemical,1346 – 2166
+Mon,10.73598,101.014413,"Rubber, Betel Nut, Cashew",1776,Hybrid,1264 – 2961
+Kachin,14.079484,98.491003,"Paddy, Sugarcane, Tea",1034,Hybrid,780 – 3165
+Mandalay,23.851867,96.038981,"Onion, Chili, Paddy",1771,Hybrid,1176 – 2678
+Bago,24.227524,100.92524,"Sugarcane, Maize, Rice",1269,Chemical,1515 – 3609
+Mandalay,20.338436,96.947925,"Onion, Chili, Paddy",1724,Organic,1037 – 2715
+Kayah,20.648272,101.169925,"Groundnut, Rice, Sesame",1156,Chemical,1512 – 2376
+Mon,28.250852,99.336325,"Cashew, Rubber, Betel Nut",1498,Organic,1091 – 3589
+Chin,24.154137,92.703424,"Potato, Corn, Millet",1040,Chemical,900 – 2479
+Bago,11.312792,95.522773,"Sugarcane, Maize, Rice",1098,Hybrid,1246 – 3006
+Chin,11.772291,98.775825,"Corn, Millet, Potato",1217,Chemical,1466 – 2663
+Magway,10.268238,98.751297,"Sesame, Groundnut, Beans",1460,Chemical,1274 – 2937
+Magway,18.532034,97.351118,"Groundnut, Sesame, Beans",1406,Chemical,1448 – 3926
+Rakhine,13.358163,100.957109,"Chili, Rice, Areca Nut",1242,Hybrid,1495 – 2872
+Naypyidaw,24.854287,98.017336,"Vegetables, Paddy, Mango",1027,Hybrid,1030 – 3493
+Naypyidaw,11.819671,95.384829,"Paddy, Vegetables, Mango",1384,Organic,982 – 2414
+Kachin,16.198808,94.895422,"Tea, Paddy, Sugarcane",1410,Organic,1017 – 3065
+Chin,14.618834,94.319192,"Potato, Corn, Millet",1671,Organic,1391 – 3327
+Tanintharyi,27.96386,101.143249,"Oil Palm, Rubber, Durian",1385,Chemical,812 – 3248
+Ayeyarwady,28.457069,94.53442,"Rice, Prawn, Fish",1219,Hybrid,1554 – 3602
+Ayeyarwady,14.051676,93.376501,"Rice, Prawn, Fish",1709,Chemical,1535 – 3797
+Rakhine,16.523435,94.300519,"Rice, Areca Nut, Chili",1609,Hybrid,1210 – 2761
+Ayeyarwady,12.363633,96.827888,"Fish, Prawn, Rice",1659,Chemical,1102 – 3271
+Chin,24.88052,95.312327,"Potato, Corn, Millet",1488,Organic,1339 – 2689
+Bago,25.416492,98.419056,"Rice, Maize, Sugarcane",1150,Chemical,997 – 3431
+Magway,22.039697,99.763611,"Groundnut, Beans, Sesame",1571,Organic,701 – 2397
+Tanintharyi,26.547099,100.553972,"Durian, Rubber, Oil Palm",1008,Organic,798 – 3280
+Chin,25.770162,95.842827,"Millet, Corn, Potato",1627,Chemical,1324 – 3567
+Kayin,22.210777,97.516523,"Rice, Banana, Cassava",1098,Organic,1560 – 3273
+Tanintharyi,19.925942,98.573004,"Durian, Oil Palm, Rubber",1160,Organic,1097 – 3197
+Kachin,16.462907,99.06962,"Sugarcane, Tea, Paddy",1639,Organic,1387 – 2646
+Rakhine,16.4866,94.519422,"Rice, Areca Nut, Chili",1037,Hybrid,1064 – 2426
+Kayin,26.715877,96.126746,"Rice, Cassava, Banana",1608,Chemical,1180 – 2432
+Sagaing,23.22659,94.667337,"Wheat, Maize, Peanut",1048,Organic,871 – 2914
+Tanintharyi,27.624643,100.691212,"Rubber, Durian, Oil Palm",1744,Organic,979 – 3151
+Ayeyarwady,20.002534,97.436778,"Prawn, Fish, Rice",1190,Organic,860 – 2939
+Chin,12.720362,97.289612,"Potato, Corn, Millet",1569,Chemical,1571 – 3056
+Mandalay,13.469456,98.375863,"Onion, Paddy, Chili",1638,Chemical,1189 – 3398
+Naypyidaw,23.574604,98.62165,"Vegetables, Mango, Paddy",1175,Chemical,1176 – 2734
+Naypyidaw,24.892154,100.237187,"Paddy, Mango, Vegetables",1505,Chemical,1524 – 2359
+Shan,13.191205,92.673939,"Tea, Strawberry, Potato",1653,Chemical,1170 – 3136
+Sagaing,20.498433,96.165504,"Wheat, Maize, Peanut",1050,Organic,1397 – 2771
+Tanintharyi,14.944284,97.612916,"Oil Palm, Rubber, Durian",1691,Hybrid,1537 – 3414
+Rakhine,11.91415,96.961311,"Areca Nut, Chili, Rice",1619,Organic,802 – 2821
+Kayin,10.481953,97.047869,"Cassava, Banana, Rice",1655,Organic,1069 – 2504
+Naypyidaw,15.636173,99.554269,"Mango, Vegetables, Paddy",1603,Hybrid,1045 – 2585
+Naypyidaw,27.79032,99.941811,"Paddy, Mango, Vegetables",1640,Hybrid,1333 – 2645
+Yangon,14.254615,97.217653,"Flowers, Paddy, Vegetables",1236,Organic,1596 – 3691
+Shan,23.520041,97.266363,"Strawberry, Tea, Potato",1246,Chemical,775 – 1728
+Chin,23.899076,92.136738,"Potato, Millet, Corn",1068,Chemical,793 – 2550
+Kachin,12.831275,92.16303,"Tea, Paddy, Sugarcane",1340,Chemical,1311 – 3423
+Tanintharyi,17.743181,95.785795,"Rubber, Oil Palm, Durian",1099,Hybrid,879 – 2925
+Naypyidaw,21.391338,96.779794,"Paddy, Mango, Vegetables",1324,Organic,1215 – 3054
+Mandalay,27.43394,100.97039,"Onion, Paddy, Chili",1663,Hybrid,1374 – 2553
+Ayeyarwady,18.206805,97.183359,"Prawn, Fish, Rice",1576,Organic,867 – 2733
+Sagaing,14.705261,94.038597,"Wheat, Peanut, Maize",1252,Chemical,1453 – 2287
+Magway,10.852584,95.030268,"Sesame, Groundnut, Beans",1601,Hybrid,1117 – 2031
+Mon,18.924712,98.582458,"Betel Nut, Rubber, Cashew",1074,Organic,1075 – 3318
+Mon,24.766138,94.679328,"Betel Nut, Rubber, Cashew",1456,Chemical,1388 – 3310
+Kachin,16.568344,99.375923,"Tea, Sugarcane, Paddy",1735,Organic,1479 – 3671
+Magway,23.76655,99.168157,"Groundnut, Beans, Sesame",1272,Organic,761 – 2156
+Mon,15.580942,100.507471,"Betel Nut, Cashew, Rubber",1395,Organic,932 – 1807
+Mon,15.566959,101.025589,"Rubber, Cashew, Betel Nut",1366,Organic,768 – 2690
+Sagaing,15.744626,98.388925,"Maize, Peanut, Wheat",1143,Organic,738 – 1646
+Kayah,18.893986,92.546808,"Sesame, Groundnut, Rice",1132,Chemical,914 – 2446
+Rakhine,22.910798,101.202193,"Areca Nut, Chili, Rice",1491,Organic,952 – 3005
+Magway,17.595738,94.114476,"Groundnut, Beans, Sesame",1794,Hybrid,893 – 3233
+Shan,11.111917,101.373076,"Potato, Strawberry, Tea",1341,Organic,1210 – 3360
+Mon,20.745886,95.327073,"Cashew, Rubber, Betel Nut",1444,Hybrid,866 – 1756
+Naypyidaw,26.720733,93.056376,"Mango, Vegetables, Paddy",1652,Hybrid,919 – 3380
+Naypyidaw,23.578503,99.288351,"Mango, Vegetables, Paddy",1000,Chemical,1047 – 2036
+Mon,16.622541,94.714265,"Betel Nut, Cashew, Rubber",1116,Hybrid,757 – 3136
+Shan,27.927698,92.410019,"Strawberry, Potato, Tea",1212,Chemical,1463 – 3515
+Kachin,20.023231,101.208374,"Paddy, Tea, Sugarcane",1232,Organic,1225 – 3191
+Yangon,28.420796,98.620788,"Vegetables, Paddy, Flowers",1470,Organic,711 – 2864
+Mandalay,16.995914,93.014183,"Chili, Paddy, Onion",1121,Hybrid,1347 – 2844
+Sagaing,20.589466,92.738479,"Peanut, Maize, Wheat",1703,Chemical,1201 – 2959
+Ayeyarwady,14.815507,95.906464,"Prawn, Fish, Rice",1751,Organic,1257 – 3627
+Shan,27.370105,95.958071,"Potato, Strawberry, Tea",1449,Hybrid,1523 – 3120
+Bago,19.98017,93.565925,"Maize, Rice, Sugarcane",1064,Hybrid,923 – 2985
+Ayeyarwady,16.65804,99.120994,"Prawn, Fish, Rice",1794,Organic,1160 – 3593
+Mon,17.381571,94.597367,"Rubber, Cashew, Betel Nut",1475,Organic,1408 – 3876
+Kayin,26.850149,97.558921,"Cassava, Rice, Banana",1713,Hybrid,782 – 2750
+Kayah,18.060339,93.227014,"Groundnut, Sesame, Rice",1716,Hybrid,1148 – 2828
+Mandalay,21.244437,95.402546,"Onion, Paddy, Chili",1249,Hybrid,1137 – 2054
+Chin,19.383107,100.095724,"Potato, Millet, Corn",1388,Hybrid,1433 – 2995
+Mon,20.709162,96.560437,"Cashew, Rubber, Betel Nut",1228,Organic,1277 – 2151
+Chin,26.65987,97.864005,"Potato, Millet, Corn",1305,Hybrid,1549 – 3146
+Yangon,17.812024,100.589508,"Flowers, Paddy, Vegetables",1480,Chemical,1241 – 2799
+Naypyidaw,25.88491,101.020446,"Vegetables, Paddy, Mango",1400,Hybrid,1484 – 3815
+Kachin,18.223579,101.310309,"Paddy, Sugarcane, Tea",1204,Hybrid,1446 – 2288
+Rakhine,10.941403,93.224357,"Rice, Chili, Areca Nut",1094,Chemical,1073 – 3416
+Kachin,12.955722,95.283839,"Tea, Sugarcane, Paddy",1194,Chemical,792 – 2263
+Bago,20.936773,94.126566,"Rice, Maize, Sugarcane",1465,Hybrid,1528 – 2861
+Kayah,19.925591,97.077023,"Sesame, Rice, Groundnut",1545,Organic,777 – 2673
+Naypyidaw,24.688798,97.965054,"Vegetables, Mango, Paddy",1349,Chemical,1530 – 2377
+Shan,9.549305,100.248861,"Potato, Strawberry, Tea",1252,Chemical,1002 – 2440
+Mandalay,18.705937,97.87342,"Onion, Paddy, Chili",1215,Hybrid,1064 – 2529
+Tanintharyi,12.307043,93.264611,"Durian, Rubber, Oil Palm",1749,Chemical,1450 – 3781
+Shan,25.977085,95.364393,"Potato, Tea, Strawberry",1191,Organic,1330 – 2614
+Sagaing,9.881353,95.059752,"Wheat, Maize, Peanut",1473,Hybrid,1511 – 2847
+Ayeyarwady,16.01561,96.502714,"Prawn, Rice, Fish",1232,Organic,845 – 1755
+Kachin,19.705024,97.574991,"Paddy, Sugarcane, Tea",1594,Hybrid,1124 – 2536
+Kayin,26.593301,97.771775,"Banana, Cassava, Rice",1314,Organic,1440 – 3640
+Ayeyarwady,9.643153,94.140662,"Prawn, Rice, Fish",1623,Hybrid,1542 – 3811
+Tanintharyi,24.811433,92.528708,"Durian, Oil Palm, Rubber",1242,Chemical,739 – 1767
+Kachin,28.447855,100.517797,"Tea, Sugarcane, Paddy",1645,Hybrid,1580 – 4009
+Mandalay,23.235026,99.798184,"Chili, Onion, Paddy",1714,Hybrid,1134 – 2106
+Sagaing,13.396474,101.195944,"Wheat, Maize, Peanut",1224,Organic,839 – 2197
+Ayeyarwady,21.101781,94.74199,"Prawn, Fish, Rice",1138,Chemical,1567 – 3211
+Rakhine,20.783779,95.50769,"Areca Nut, Rice, Chili",1649,Hybrid,712 – 2703
+Bago,11.169494,93.318835,"Rice, Maize, Sugarcane",1776,Chemical,1249 – 3491
+Tanintharyi,11.527286,100.081911,"Rubber, Oil Palm, Durian",1375,Chemical,836 – 2223
+Chin,10.763429,99.040646,"Potato, Millet, Corn",1348,Chemical,1572 – 3624
+Tanintharyi,24.691205,99.83876,"Durian, Oil Palm, Rubber",1378,Hybrid,1109 – 2482
+Kachin,15.507735,97.588913,"Tea, Paddy, Sugarcane",1294,Hybrid,1499 – 3959
+Kayin,19.75584,96.168074,"Cassava, Rice, Banana",1144,Organic,1202 – 2822
+Mandalay,13.851482,97.157068,"Onion, Chili, Paddy",1578,Chemical,878 – 2231
+Kachin,24.586479,97.890691,"Paddy, Tea, Sugarcane",1419,Organic,1249 – 3513
+Ayeyarwady,22.932629,99.396433,"Prawn, Fish, Rice",1195,Hybrid,1533 – 3878
+Kayah,26.158547,95.249777,"Rice, Sesame, Groundnut",1158,Chemical,927 – 1942
+Kachin,17.048459,99.574306,"Sugarcane, Paddy, Tea",1046,Organic,829 – 3063
+Yangon,20.870411,97.372329,"Flowers, Vegetables, Paddy",1282,Organic,1359 – 2169
+Tanintharyi,26.760561,97.542222,"Durian, Rubber, Oil Palm",1345,Hybrid,1062 – 2257
+Naypyidaw,20.638367,96.805942,"Mango, Paddy, Vegetables",1622,Chemical,1159 – 2962
+Kachin,26.95626,99.505804,"Paddy, Sugarcane, Tea",1126,Hybrid,1303 – 3504
+Mon,17.558483,98.99622,"Betel Nut, Cashew, Rubber",1778,Chemical,1468 – 3081
+Kayah,28.211983,99.969532,"Rice, Sesame, Groundnut",1000,Chemical,1266 – 2436
+Mandalay,21.049993,95.603404,"Paddy, Chili, Onion",1201,Organic,816 – 3305
+Mon,11.671079,95.937794,"Betel Nut, Rubber, Cashew",1385,Chemical,909 – 2183
+Bago,26.95064,97.577148,"Sugarcane, Rice, Maize",1762,Chemical,881 – 2344
+Mon,18.968988,95.979792,"Cashew, Betel Nut, Rubber",1284,Chemical,1361 – 2826
+Sagaing,13.540935,96.89415,"Peanut, Maize, Wheat",1360,Organic,847 – 3300
+Kayin,11.121644,101.470305,"Cassava, Rice, Banana",1768,Organic,914 – 2148
+Rakhine,24.695858,95.319176,"Areca Nut, Rice, Chili",1304,Organic,1176 – 2261
+Mandalay,20.661618,94.793424,"Paddy, Onion, Chili",1193,Hybrid,812 – 1725
+Tanintharyi,20.133166,93.474782,"Oil Palm, Durian, Rubber",1054,Chemical,1342 – 2941
+Naypyidaw,14.644149,98.117996,"Mango, Paddy, Vegetables",1054,Hybrid,1090 – 3262
+Mandalay,10.014824,94.108736,"Paddy, Onion, Chili",1766,Organic,1027 – 2904
+Mon,24.698406,93.696174,"Betel Nut, Cashew, Rubber",1263,Hybrid,1502 – 2397
+Mandalay,23.223072,100.129116,"Onion, Paddy, Chili",1451,Organic,881 – 2149
+Tanintharyi,15.069807,100.51519,"Rubber, Durian, Oil Palm",1774,Organic,850 – 2758
+Chin,11.832761,100.326219,"Millet, Corn, Potato",1081,Hybrid,1596 – 3210
+Kayah,15.99453,94.464523,"Rice, Sesame, Groundnut",1470,Chemical,1095 – 3450
+Kayah,16.058651,99.351428,"Rice, Groundnut, Sesame",1052,Chemical,1199 – 3528
+Kayin,24.315417,93.08526,"Banana, Rice, Cassava",1058,Hybrid,1426 – 2353
+Ayeyarwady,18.710789,96.868348,"Prawn, Fish, Rice",1236,Organic,1058 – 3082
+Kayin,21.756029,96.006187,"Banana, Rice, Cassava",1028,Organic,1309 – 2913
+Rakhine,25.129094,97.031786,"Rice, Areca Nut, Chili",1040,Hybrid,733 – 2573
+Kayah,21.876987,99.882547,"Groundnut, Sesame, Rice",1341,Organic,726 – 2836
+Kayin,23.411507,94.381941,"Cassava, Rice, Banana",1454,Hybrid,1384 – 3608
+Naypyidaw,17.183249,99.323658,"Vegetables, Paddy, Mango",1129,Hybrid,1062 – 2680
+Kayah,20.95989,94.330817,"Groundnut, Rice, Sesame",1295,Chemical,1211 – 2686
+Ayeyarwady,23.209124,97.798844,"Rice, Prawn, Fish",1054,Chemical,1363 – 2920
+Kayin,23.41887,94.041934,"Banana, Cassava, Rice",1466,Chemical,943 – 3257
+Ayeyarwady,18.930959,97.670007,"Prawn, Rice, Fish",1153,Hybrid,1200 – 2072
+Mon,16.179263,95.921539,"Cashew, Betel Nut, Rubber",1615,Hybrid,724 – 2586
+Chin,25.062944,99.594451,"Potato, Corn, Millet",1101,Hybrid,1223 – 2297
+Kayah,11.240059,100.714479,"Groundnut, Rice, Sesame",1329,Organic,1522 – 3842
+Yangon,11.147399,101.102623,"Vegetables, Paddy, Flowers",1660,Organic,1426 – 3734
+Kayin,21.6074,101.31548,"Rice, Banana, Cassava",1267,Chemical,1270 – 2558
+Shan,22.228432,92.419572,"Potato, Tea, Strawberry",1793,Organic,785 – 1834
+Magway,10.144974,98.625493,"Beans, Groundnut, Sesame",1687,Hybrid,1526 – 3052
+Shan,18.51007,100.189405,"Potato, Tea, Strawberry",1401,Chemical,1189 – 2603
+Ayeyarwady,21.85318,95.464624,"Prawn, Fish, Rice",1130,Organic,870 – 2605
+Naypyidaw,23.270569,92.620885,"Vegetables, Mango, Paddy",1496,Organic,1096 – 2617
+Ayeyarwady,26.333577,97.8507,"Rice, Prawn, Fish",1310,Chemical,869 – 2214
+Tanintharyi,9.504513,93.761993,"Rubber, Oil Palm, Durian",1607,Chemical,1590 – 3452
+Tanintharyi,16.163524,99.288289,"Oil Palm, Durian, Rubber",1244,Organic,971 – 3234
+Sagaing,28.197586,99.298597,"Maize, Peanut, Wheat",1358,Organic,1276 – 2078
+Shan,16.237821,94.72877,"Tea, Strawberry, Potato",1292,Organic,1131 – 2635
+Kayah,28.266725,96.063845,"Groundnut, Rice, Sesame",1343,Chemical,1504 – 2364
+Kayah,11.198809,95.967017,"Sesame, Groundnut, Rice",1343,Chemical,761 – 1786
+Mon,23.623704,92.617371,"Cashew, Betel Nut, Rubber",1309,Organic,942 – 3258
+Tanintharyi,13.882726,93.677016,"Oil Palm, Rubber, Durian",1752,Hybrid,958 – 3298
+Kayah,21.465781,94.055078,"Groundnut, Rice, Sesame",1019,Hybrid,1452 – 3848
+Rakhine,17.028598,99.203266,"Areca Nut, Rice, Chili",1215,Chemical,859 – 2439
+Mandalay,23.70956,92.331219,"Chili, Onion, Paddy",1609,Chemical,1316 – 3067
+Chin,14.686228,96.52843,"Corn, Potato, Millet",1737,Hybrid,1220 – 3506
+Mandalay,27.2002,98.98452,"Onion, Chili, Paddy",1123,Chemical,737 – 1864
+Rakhine,23.244982,96.710819,"Areca Nut, Rice, Chili",1315,Organic,1495 – 3267
+Ayeyarwady,10.668823,100.38761,"Prawn, Rice, Fish",1114,Hybrid,1022 – 3413
+Mandalay,22.382307,97.374454,"Paddy, Chili, Onion",1261,Chemical,1035 – 3026
+Sagaing,25.661053,100.239295,"Maize, Peanut, Wheat",1362,Organic,1044 – 3037
+Kachin,21.253616,99.150808,"Sugarcane, Tea, Paddy",1746,Organic,1525 – 3085
+Chin,26.202358,92.048879,"Corn, Potato, Millet",1669,Chemical,781 – 1936
+Bago,25.310549,96.820943,"Sugarcane, Rice, Maize",1223,Organic,745 – 3235
+Ayeyarwady,20.137042,93.100517,"Rice, Prawn, Fish",1447,Organic,1374 – 3181
+Kayin,14.883516,92.175063,"Rice, Cassava, Banana",1411,Chemical,921 – 1757
+Shan,24.487333,93.650658,"Tea, Strawberry, Potato",1730,Organic,1223 – 2940
+Ayeyarwady,20.561239,95.285889,"Rice, Prawn, Fish",1209,Hybrid,969 – 2472
+Yangon,27.908679,99.121692,"Vegetables, Paddy, Flowers",1380,Chemical,728 – 2434
+Ayeyarwady,15.648594,96.64211,"Fish, Rice, Prawn",1569,Chemical,1237 – 3542
+Tanintharyi,18.402249,100.970885,"Durian, Rubber, Oil Palm",1488,Chemical,970 – 2656
+Shan,22.679962,94.097311,"Strawberry, Tea, Potato",1083,Hybrid,1158 – 3520
+Chin,27.566408,93.43505,"Corn, Millet, Potato",1302,Organic,783 – 3265
+Mon,17.903676,94.963544,"Rubber, Betel Nut, Cashew",1526,Hybrid,862 – 2670
+Mon,23.083557,97.346128,"Rubber, Cashew, Betel Nut",1059,Hybrid,1356 – 3784
+Kayah,12.419503,96.31009,"Sesame, Rice, Groundnut",1198,Chemical,1048 – 2807
+Sagaing,10.117997,100.748055,"Wheat, Maize, Peanut",1557,Chemical,852 – 2385
+Tanintharyi,20.868218,97.769411,"Oil Palm, Durian, Rubber",1725,Hybrid,1200 – 2116
+Bago,24.653623,94.948439,"Rice, Maize, Sugarcane",1071,Organic,973 – 3116
+Bago,18.618838,97.700195,"Rice, Sugarcane, Maize",1728,Organic,801 – 3049
+Mandalay,23.261421,99.117036,"Paddy, Chili, Onion",1587,Organic,745 – 3240
+Yangon,18.978875,97.872479,"Flowers, Paddy, Vegetables",1241,Organic,701 – 1725
+Ayeyarwady,26.268136,92.783831,"Prawn, Fish, Rice",1665,Hybrid,802 – 1795
+Kayin,20.283276,98.549917,"Rice, Banana, Cassava",1105,Chemical,1127 – 3255
+Mandalay,21.592175,98.711519,"Chili, Onion, Paddy",1773,Organic,1058 – 2080
+Mon,22.97215,100.274207,"Rubber, Betel Nut, Cashew",1317,Hybrid,810 – 1860
+Yangon,11.022182,100.500758,"Vegetables, Flowers, Paddy",1021,Hybrid,1594 – 2908
+Yangon,19.501651,98.9501,"Vegetables, Paddy, Flowers",1011,Chemical,1223 – 2931
+Mon,26.063888,94.082533,"Rubber, Cashew, Betel Nut",1355,Organic,1432 – 3886
+Kayah,22.015448,96.732859,"Sesame, Rice, Groundnut",1722,Hybrid,1248 – 3423
+Mandalay,28.02107,98.178094,"Chili, Onion, Paddy",1034,Organic,792 – 2822
+Ayeyarwady,25.468596,93.654837,"Fish, Prawn, Rice",1023,Organic,1215 – 2746
+Sagaing,24.086754,96.796026,"Peanut, Wheat, Maize",1607,Organic,1119 – 3192
+Kayah,17.014788,97.758793,"Sesame, Groundnut, Rice",1773,Chemical,1454 – 3648
+Naypyidaw,26.834904,94.001291,"Paddy, Mango, Vegetables",1551,Organic,1436 – 3102
+Naypyidaw,23.100674,100.635809,"Vegetables, Mango, Paddy",1525,Hybrid,701 – 1875
+Kayah,25.733317,96.67664,"Sesame, Rice, Groundnut",1380,Chemical,713 – 2016
+Magway,16.325434,97.633033,"Groundnut, Sesame, Beans",1027,Hybrid,862 – 2914
+Kayah,15.678611,99.347995,"Groundnut, Rice, Sesame",1302,Chemical,1094 – 2927
+Chin,17.898463,95.143449,"Millet, Corn, Potato",1360,Organic,832 – 2931
+Mandalay,21.225755,98.714384,"Onion, Chili, Paddy",1283,Organic,806 – 2292
+Kayah,19.636727,99.427008,"Groundnut, Sesame, Rice",1619,Chemical,1581 – 2714
+Bago,11.836445,94.195744,"Maize, Sugarcane, Rice",1000,Chemical,734 – 1731
+Kayah,27.243625,95.003483,"Groundnut, Rice, Sesame",1205,Hybrid,975 – 2467
+Bago,27.837255,92.04693,"Maize, Sugarcane, Rice",1305,Organic,884 – 2746
+Yangon,14.330267,96.956435,"Vegetables, Paddy, Flowers",1293,Chemical,1083 – 3544
+Shan,12.227305,100.928288,"Tea, Potato, Strawberry",1340,Organic,1475 – 2943
+Kayin,25.994703,93.682923,"Rice, Banana, Cassava",1310,Chemical,917 – 2143
+Naypyidaw,9.832804,94.319399,"Vegetables, Paddy, Mango",1302,Organic,1287 – 3073
+Mandalay,24.614697,100.727439,"Paddy, Chili, Onion",1286,Hybrid,752 – 2879
+Kayah,20.466519,95.31145,"Sesame, Rice, Groundnut",1703,Hybrid,1274 – 3682
+Ayeyarwady,17.231251,100.272158,"Fish, Prawn, Rice",1588,Chemical,1188 – 2958
+Kachin,21.859721,99.269313,"Paddy, Tea, Sugarcane",1453,Hybrid,1293 – 2489
+Mon,15.526719,100.254556,"Betel Nut, Cashew, Rubber",1454,Organic,1424 – 3902
+Ayeyarwady,16.462769,95.763641,"Fish, Prawn, Rice",1604,Organic,1116 – 2220
+Ayeyarwady,17.94397,92.139337,"Fish, Rice, Prawn",1621,Hybrid,1541 – 3302
+Tanintharyi,19.008461,97.152455,"Rubber, Oil Palm, Durian",1628,Organic,853 – 2317
+Sagaing,12.330845,97.002926,"Wheat, Maize, Peanut",1739,Chemical,742 – 2485
+Magway,24.946729,98.822169,"Beans, Sesame, Groundnut",1020,Chemical,1318 – 3132
+Yangon,10.854325,101.06927,"Paddy, Vegetables, Flowers",1782,Organic,840 – 2109
+Chin,11.426996,96.615782,"Millet, Corn, Potato",1493,Chemical,1368 – 2918
+Sagaing,19.744064,94.957423,"Wheat, Peanut, Maize",1001,Organic,1288 – 2731
+Naypyidaw,11.815836,93.720919,"Vegetables, Mango, Paddy",1585,Chemical,858 – 3264
+Yangon,11.530662,97.389466,"Vegetables, Flowers, Paddy",1035,Hybrid,1474 – 3682
+Sagaing,10.324838,98.014938,"Maize, Wheat, Peanut",1117,Organic,1425 – 3468
+Mon,24.581133,98.142756,"Betel Nut, Rubber, Cashew",1636,Hybrid,1283 – 2234
+Ayeyarwady,14.000541,99.414992,"Rice, Prawn, Fish",1530,Chemical,901 – 2557
+Bago,24.066467,93.422188,"Sugarcane, Rice, Maize",1580,Chemical,1260 – 2542
+Sagaing,25.893144,94.059028,"Peanut, Maize, Wheat",1431,Organic,1354 – 2572
+Sagaing,13.417537,98.060628,"Peanut, Maize, Wheat",1076,Organic,1140 – 3217
+Mon,28.267925,93.296178,"Betel Nut, Cashew, Rubber",1553,Hybrid,1336 – 3326
+Mon,22.656287,101.416932,"Betel Nut, Rubber, Cashew",1579,Hybrid,801 – 2154
+Magway,24.179832,94.516507,"Beans, Groundnut, Sesame",1675,Chemical,772 – 2219
+Ayeyarwady,13.806472,95.372465,"Fish, Prawn, Rice",1641,Organic,1127 – 3489
+Kayah,14.651801,97.631714,"Sesame, Groundnut, Rice",1380,Hybrid,958 – 2099
+Kayin,10.494439,95.595526,"Rice, Banana, Cassava",1353,Chemical,1497 – 2412
+Mandalay,20.529025,92.84329,"Paddy, Chili, Onion",1476,Chemical,1002 – 2818
+Magway,19.680726,92.918426,"Beans, Groundnut, Sesame",1011,Organic,1099 – 3570
+Kachin,18.522844,95.634,"Tea, Sugarcane, Paddy",1626,Hybrid,1216 – 3287
+Sagaing,14.129478,98.379805,"Wheat, Peanut, Maize",1455,Chemical,1499 – 3483
+Kayah,25.195285,99.429267,"Rice, Sesame, Groundnut",1653,Organic,1362 – 2275
+Shan,16.342592,92.832606,"Potato, Tea, Strawberry",1448,Chemical,1534 – 3537
+Tanintharyi,17.996848,97.705646,"Rubber, Durian, Oil Palm",1418,Hybrid,842 – 1983
+Sagaing,25.677074,93.98085,"Maize, Wheat, Peanut",1041,Hybrid,1293 – 3545
+Chin,22.311772,97.058571,"Potato, Millet, Corn",1066,Chemical,1225 – 2097
+Yangon,17.156623,93.648483,"Flowers, Vegetables, Paddy",1465,Hybrid,1487 – 2552
+Mon,20.428104,96.553867,"Betel Nut, Cashew, Rubber",1094,Hybrid,1532 – 3465
+Kayin,25.257316,95.016549,"Cassava, Banana, Rice",1024,Organic,816 – 2097
+Mandalay,18.586446,96.808022,"Onion, Paddy, Chili",1172,Organic,1242 – 2887
+Kachin,17.850722,93.003815,"Tea, Paddy, Sugarcane",1042,Hybrid,829 – 2712
+Magway,12.388472,92.582821,"Sesame, Beans, Groundnut",1777,Organic,1341 – 2522
+Rakhine,23.830817,97.885229,"Chili, Rice, Areca Nut",1082,Organic,798 – 1746
+Mon,24.371225,94.52118,"Rubber, Cashew, Betel Nut",1399,Organic,959 – 3397
+Mandalay,24.965435,97.844585,"Chili, Paddy, Onion",1419,Hybrid,930 – 2816
+Kayah,26.34548,96.272954,"Groundnut, Rice, Sesame",1518,Chemical,791 – 2572
+Tanintharyi,12.860856,95.677248,"Oil Palm, Durian, Rubber",1182,Hybrid,1273 – 2477
+Kayin,24.516417,97.530408,"Banana, Cassava, Rice",1422,Organic,764 – 2600
+Kayah,25.351764,97.978339,"Rice, Groundnut, Sesame",1172,Organic,1196 – 2695
+Rakhine,18.133169,100.021392,"Chili, Rice, Areca Nut",1793,Hybrid,1407 – 2752
+Kachin,14.126081,98.191251,"Sugarcane, Tea, Paddy",1732,Organic,1121 – 2474
+Kayah,27.668222,93.264878,"Rice, Groundnut, Sesame",1392,Organic,828 – 2781
+Sagaing,10.95192,94.653993,"Wheat, Peanut, Maize",1231,Organic,983 – 2497
+Magway,22.027725,100.503619,"Beans, Groundnut, Sesame",1172,Chemical,1280 – 3519
+Sagaing,19.232216,98.462164,"Peanut, Maize, Wheat",1504,Chemical,742 – 2950
+Shan,24.740481,93.000992,"Potato, Strawberry, Tea",1147,Organic,931 – 2096
+Kachin,16.144361,99.359209,"Sugarcane, Tea, Paddy",1539,Chemical,1190 – 2431
+Kayah,19.942705,99.890077,"Sesame, Rice, Groundnut",1622,Organic,922 – 3393
+Mandalay,21.368608,95.628427,"Chili, Onion, Paddy",1560,Hybrid,1535 – 3948
+Mon,21.734181,97.03787,"Betel Nut, Rubber, Cashew",1369,Hybrid,848 – 3347
+Sagaing,18.512386,93.082588,"Maize, Peanut, Wheat",1159,Chemical,987 – 3098
+Sagaing,12.47613,92.415488,"Peanut, Maize, Wheat",1401,Chemical,1364 – 2651
+Rakhine,19.951747,95.692202,"Rice, Areca Nut, Chili",1413,Organic,871 – 2982
+Chin,26.351573,98.135203,"Potato, Corn, Millet",1543,Hybrid,1330 – 2168
+Ayeyarwady,14.410201,97.168158,"Fish, Prawn, Rice",1660,Hybrid,1001 – 3184
+Tanintharyi,24.252501,98.233537,"Rubber, Durian, Oil Palm",1597,Hybrid,934 – 3102
+Kayin,19.751568,98.915498,"Rice, Banana, Cassava",1212,Chemical,1135 – 2217
+Bago,13.556716,96.805601,"Maize, Rice, Sugarcane",1682,Organic,1400 – 3576
+Mandalay,21.12687,93.006342,"Paddy, Onion, Chili",1029,Chemical,807 – 2997
+Mon,23.961309,93.520681,"Rubber, Betel Nut, Cashew",1655,Organic,1575 – 3659
+Chin,28.344389,92.942192,"Potato, Millet, Corn",1490,Organic,709 – 2937
+Tanintharyi,21.203724,93.786235,"Oil Palm, Durian, Rubber",1012,Organic,1199 – 2930
+Kayin,25.612908,99.979658,"Rice, Cassava, Banana",1013,Organic,1117 – 3377
+Mon,22.389198,99.184514,"Cashew, Rubber, Betel Nut",1069,Chemical,800 – 2297
+Kachin,16.822142,98.111969,"Tea, Paddy, Sugarcane",1226,Hybrid,1504 – 3796
+Kayin,22.716745,92.030574,"Banana, Rice, Cassava",1771,Organic,719 – 1791
+Magway,26.110987,96.846042,"Sesame, Beans, Groundnut",1740,Hybrid,754 – 2053
+Kachin,10.503275,96.622678,"Tea, Paddy, Sugarcane",1158,Chemical,1516 – 3658
+Tanintharyi,12.330995,98.606449,"Rubber, Oil Palm, Durian",1116,Chemical,1567 – 2385
+Shan,12.301598,95.117831,"Potato, Tea, Strawberry",1145,Chemical,1327 – 3263
+Rakhine,24.725971,99.282591,"Areca Nut, Chili, Rice",1117,Organic,860 – 2060
+Kayin,21.58737,99.46369,"Cassava, Banana, Rice",1709,Chemical,777 – 1700
+Rakhine,23.559741,101.027971,"Chili, Areca Nut, Rice",1499,Organic,837 – 1686
+Chin,9.997737,92.229822,"Potato, Millet, Corn",1709,Organic,1576 – 2938
+Kayah,10.566586,100.100916,"Rice, Sesame, Groundnut",1580,Organic,1531 – 2379
+Kayah,18.205551,96.588204,"Sesame, Rice, Groundnut",1259,Hybrid,1442 – 3560
+Bago,26.778414,99.412024,"Maize, Sugarcane, Rice",1181,Hybrid,1527 – 3714
+Sagaing,17.077885,100.764919,"Peanut, Maize, Wheat",1724,Hybrid,1107 – 2782
+Naypyidaw,14.861554,94.486204,"Mango, Vegetables, Paddy",1219,Hybrid,1331 – 3036
+Kayin,17.648851,100.0255,"Banana, Rice, Cassava",1227,Chemical,1295 – 2344
+Rakhine,12.145662,97.057996,"Chili, Areca Nut, Rice",1518,Hybrid,1338 – 3560
+Bago,23.416526,97.209046,"Sugarcane, Rice, Maize",1198,Organic,1125 – 3614
+Sagaing,24.466547,97.932042,"Peanut, Maize, Wheat",1020,Hybrid,1280 – 3234
+Magway,13.263855,97.370637,"Beans, Sesame, Groundnut",1383,Organic,1144 – 2368

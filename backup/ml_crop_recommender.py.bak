@@ -1,0 +1,115 @@
+import json
+import os
+import pandas as pd
+
+# Path to the new data source
+CROP_SETTINGS_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'crop_settings.json')
+
+def load_crop_settings():
+    """Loads the crop settings from the JSON file."""
+    try:
+        with open(CROP_SETTINGS_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Error: '{CROP_SETTINGS_PATH}' not found.")
+        return {}
+    except json.JSONDecodeError:
+        print(f"Error: Failed to decode JSON from '{CROP_SETTINGS_PATH}'.")
+        return {}
+
+# Load settings once when the module is imported
+CROP_SETTINGS = load_crop_settings()
+
+def recommend_crops(city: str, greenhouse_size: float, water_availability: float, fertilizer_type: str, weather_data: dict):
+    """
+    Recommends the top 3 crops based on user inputs and real-time weather,
+    using crop_settings.json as the sole data source.
+    """
+    if not CROP_SETTINGS:
+        return []
+
+    # The city from the UI might include the region, e.g., "Pathein (Ayeyarwady)"
+    # The keys in the JSON also follow this format. We find the correct key.
+    city_key = None
+    for key in CROP_SETTINGS.keys():
+        if city.lower() in key.lower():
+            city_key = key
+            break
+    
+    if not city_key:
+        print(f"Warning: City '{city}' not found in crop_settings.json.")
+        return []
+    
+    candidate_crops = CROP_SETTINGS.get(city_key, [])
+    if not candidate_crops:
+        return []
+
+    # Extract current weather conditions from the data fetched by the dashboard
+    # Using sensible defaults if data is missing.
+    current_temp = weather_data.get('current', {}).get('temperature_2m', 25.0)
+    current_humidity = weather_data.get('current', {}).get('relative_humidity_2m', 70.0)
+
+    scored_crops = []
+
+    for crop in candidate_crops:
+        score = 100  # Start with a base score of 100
+        reasons = []
+
+        # 1. Temperature Score: Crucial for growth
+        min_temp, max_temp = crop['optimal_temperature']
+        if not (min_temp <= current_temp <= max_temp):
+            score -= 50  # Heavy penalty if temperature is unsuitable
+            reasons.append(f"Unsuitable Temperature: Current is {current_temp}°C, requires {min_temp}-{max_temp}°C.")
+        else:
+            reasons.append(f"Optimal Temperature.")
+
+        # 2. Water Availability Score: Must have enough water
+        water_needed_per_sqm = crop['water_needs_liter_per_day_per_sq_meter']
+        total_water_needed = water_needed_per_sqm * greenhouse_size
+        if water_availability < total_water_needed:
+            score -= 50  # Heavy penalty if water is insufficient
+            reasons.append(f"Insufficient Water: Needs {total_water_needed:.1f}L/day, you have {water_availability}L.")
+        else:
+            reasons.append(f"Sufficient Water.")
+
+        # 3. Greenhouse Size Score: Penalize if size is outside the optimal range
+        optimal_size_info = crop.get('optimal_greenhouse_size_sq_meter')
+        if isinstance(optimal_size_info, list):
+            min_size, max_size = optimal_size_info
+            if not (min_size <= greenhouse_size <= max_size):
+                score -= 15  # Penalty for non-optimal size
+                reasons.append(f"Non-Optimal Size: Your {greenhouse_size}sqm is outside the recommended {min_size}-{max_size}sqm.")
+            else:
+                reasons.append(f"Optimal Size.")
+
+        # 4. Fertilizer Score: Penalize for mismatch
+        if fertilizer_type.lower() != crop['fertilizer_preference'].lower():
+            score -= 10
+            reasons.append(f"Fertilizer Mismatch: Prefers {crop['fertilizer_preference']}.")
+        else:
+            reasons.append(f"Fertilizer Match.")
+            
+        # 5. Humidity Score: Less critical than temp/water, so smaller penalty
+        min_hum, max_hum = crop['optimal_humidity']
+        if not (min_hum <= current_humidity <= max_hum):
+            score -= 10
+            reasons.append(f"Non-Optimal Humidity: Current is {current_humidity}%, requires {min_hum}-{max_hum}%.")
+        else:
+            reasons.append(f"Optimal Humidity.")
+
+        # Calculate potential yield using data from the JSON
+        yield_per_sqm = crop.get('yield_per_sq_meter_kg', 0)
+        total_yield = yield_per_sqm * greenhouse_size
+        
+        scored_crops.append({
+            'crop_name': crop['crop_name'],
+            'score': score,
+            'total_yield_kg': round(total_yield, 2),
+            'details': reasons  # Provide details for transparency
+        })
+
+    # Sort by the final score in descending order
+    recommended_crops = sorted(scored_crops, key=lambda x: x['score'], reverse=True)
+    
+    # Return the top 3 best-matching crops
+    return recommended_crops[:3]

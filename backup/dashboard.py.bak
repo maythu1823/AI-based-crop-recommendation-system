@@ -1,0 +1,441 @@
+import os
+import sys
+import json
+import time
+import numpy as np
+import pandas as pd
+import streamlit as st
+import base64
+import plotly.graph_objects as go
+import math  # Added for calculations
+import re # Added for regex operations
+from typing import Dict, Any, List
+from datetime import datetime, timedelta
+from sklearn.linear_model import LinearRegression
+from matplotlib.ticker import MaxNLocator # Added for X-axis tick control
+import matplotlib.pyplot as plt # Added for plotting market price predictions
+from matplotlib.ticker import FuncFormatter # Added for Y-axis formatting
+
+# Get the project root directory (parent of 'app')
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Ensure project root is in sys.path to find the 'app' package
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+# --- Debugging ---
+print(f"DEBUG: dashboard.py __file__: {__file__}")
+print(f"DEBUG: dashboard.py CWD: {os.getcwd()}")
+print(f"DEBUG: PROJECT_ROOT: {PROJECT_ROOT}")
+print(f"DEBUG: sys.path: {sys.path}")
+# --- End Debugging ---
+
+from app.ui_helpers import load_css, fmt, get_weather_condition, get_water_recommendation, get_fertilizer_recommendation, show_home_page # Updated import
+
+# Define Default Fallback Values VERY EARLY
+DEFAULT_TEMP = 25.0  # Default temperature in Celsius
+DEFAULT_RAINFALL = 5.0  # Default rainfall in mm
+DEFAULT_HUMIDITY = 60.0  # Default humidity in percent
+DEFAULT_GREENHOUSE_SIZE = 100.0  # Default greenhouse size in sq.m.
+DEFAULT_PRICE_PER_KG = 1500.0 # Default price per kg in MMK
+
+# Now import local modules
+try:
+    from app.yield_predictor import predict_yield
+    from app.profit_predictor import predict_profit
+
+    # Load external CSS file
+    load_css("assets/styles/dashboard.css")
+except ImportError as e:
+    st.error(f"Failed to import local modules: {e}")
+    st.error(f"Current sys.path: {sys.path}")
+    raise
+
+# Page configuration is now at the top of the file
+
+# Import project-specific modules
+try:
+    from app.market_predictor import MarketPricePredictor
+    from app.ml_crop_recommender import ml_recommend_crops
+    from app.planting_date_predictor import get_planting_date_recommendations
+    from app.crop_info import CropInfo
+    from src.data_collection.weather import get_open_meteo_weather as get_weather_data
+    from src.data_collection.historical_weather import fetch_historical_weather as get_historical_weather_data
+    from src.data_collection.historical_weather import fetch_historical_weather
+    from app.dashboard_sections import display_weather_information, display_forecast_graph, display_main_market_data, display_ml_recommendations # Import new function
+except ImportError as e:
+    st.error(f"Failed to import required modules: {e}")
+    st.stop()
+
+# Initialize components at the start
+market_predictor = MarketPricePredictor()
+market_predictor.set_data_path("data/market_prices.csv")
+
+def process_timelines(timelines: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Processes raw timeline data to include cumulative start and end days for each stage.
+    """
+    processed = {}
+    for crop, stages in timelines.items():
+        processed_stages = []
+        current_day = 0
+        if isinstance(stages, list):  # Ensure stages is a list
+            for stage in stages:
+                duration = stage.get('duration', 0)
+                processed_stage = {
+                    'stage': stage.get('stage', 'Unknown Stage'),
+                    'duration': duration,
+                    'start_day': current_day,
+                    'end_day': current_day + duration
+                }
+                processed_stages.append(processed_stage)
+                current_day += duration
+        processed[crop] = processed_stages
+    return processed
+
+# Load crop growth timelines from JSON file
+try:
+    with open('data/crop_timelines.json', 'r', encoding='utf-8') as f:
+        CROP_GROWTH_TIMELINES = json.load(f)
+except FileNotFoundError:
+    st.error("Crop growth timelines file (crop_timelines.json) not found in data directory!")
+    CROP_GROWTH_TIMELINES = {}
+except json.JSONDecodeError:
+    st.error("Error loading crop growth timelines from crop_timelines.json!")
+    CROP_GROWTH_TIMELINES = {}
+
+# After loading, process the timelines to add cumulative days
+CROP_GROWTH_TIMELINES = process_timelines(CROP_GROWTH_TIMELINES)
+
+# Load the new knowledge_base.csv
+KNOWLEDGE_BASE_CSV_PATH = os.path.join(PROJECT_ROOT, "knowledge_base.csv")
+try:
+    knowledge_base_df = pd.read_csv(KNOWLEDGE_BASE_CSV_PATH)
+    # Pre-process columns for easier use
+    if 'Region' in knowledge_base_df.columns: # This might be the original Region column
+        knowledge_base_df['Region_lower'] = knowledge_base_df['Region'].astype(str).str.lower()
+    
+    if 'CropName' in knowledge_base_df.columns:
+        knowledge_base_df['CropName_lower'] = knowledge_base_df['CropName'].astype(str).str.lower()
+
+    # KnownTownships and KnownRegions are expected from knowledge_base.csv creation
+    if 'KnownTownships' in knowledge_base_df.columns:
+        # Ensure it's string type for searching
+        knowledge_base_df['KnownTownships'] = knowledge_base_df['KnownTownships'].astype(str)
+        knowledge_base_df['KnownTownships_lower'] = knowledge_base_df['KnownTownships'].str.lower()
+    else:
+        # If 'KnownTownships' isn't there, it's a critical issue for filtering.
+        # Initialize an empty column to prevent errors, but log a warning.
+        print("CRITICAL WARNING: 'KnownTownships' column not found in knowledge_base.csv. City-based recommendations will likely fail.")
+        knowledge_base_df['KnownTownships_lower'] = pd.Series(dtype='str')
+        
+    if 'KnownRegions' in knowledge_base_df.columns:
+        knowledge_base_df['KnownRegions_lower'] = knowledge_base_df['KnownRegions'].astype(str).str.lower()
+        
+    if 'MarketPriceAvgMMK_TownshipData' in knowledge_base_df.columns:
+        knowledge_base_df['AvgMarketPrice_Parsed'] = pd.to_numeric(knowledge_base_df['MarketPriceAvgMMK_TownshipData'], errors='coerce')
+    elif 'Average Market Price (MMK/kg)' in knowledge_base_df.columns: # Fallback if old column name exists
+        def parse_price_range(price_str):
+            if pd.isna(price_str):
+                return np.nan
+            try:
+                parts = str(price_str).split('–')
+                if len(parts) == 2:
+                    low = float(parts[0].strip())
+                    high = float(parts[1].strip())
+                    return (low + high) / 2
+                else:
+                    return float(price_str.strip())
+            except:
+                return np.nan
+        knowledge_base_df['AvgMarketPrice_Parsed'] = knowledge_base_df['Average Market Price (MMK/kg)'].apply(parse_price_range)
+
+    if 'PredictedWaterNeedLitersPerDay' in knowledge_base_df.columns: # Example of a specific numeric column
+         knowledge_base_df['WaterAvailability_Parsed'] = pd.to_numeric(knowledge_base_df['PredictedWaterNeedLitersPerDay'], errors='coerce')
+    elif 'Water Availability (L/day)' in knowledge_base_df.columns: # Fallback
+        knowledge_base_df['WaterAvailability_Parsed'] = pd.to_numeric(knowledge_base_df['Water Availability (L/day)'], errors='coerce')
+
+
+except FileNotFoundError:
+    st.error(f"Critical Data Error: 'knowledge_base.csv' not found at {KNOWLEDGE_BASE_CSV_PATH}! Please ensure the file exists.")
+    knowledge_base_df = pd.DataFrame()
+except Exception as e:
+    st.error(f"Error loading or parsing 'knowledge_base.csv': {e}")
+    knowledge_base_df = pd.DataFrame()
+
+# Conditionally display the title and sidebar
+if st.session_state.get('show_dashboard'):
+    st.title("🌿 GreenThumb AI: Crop Strategy Assistant")
+
+    # ─────────────────── Sidebar Input ───────────────────
+    with st.sidebar:
+        st.header("📍 Location")
+        
+        township_options = [
+            "Select a location...", "Pathein (Ayeyarwady)", "Bago", "Hakha (Chin)", "Loikaw (Kayah)", 
+            "Hpa-an (Kayin)", "Magway", "Mandalay", "Mawlamyine (Mon)", "Naypyidaw",
+            "Sittwe (Rakhine)", "Sagaing", "Taunggyi (Shan)", "Dawei (Tanintharyi)", "Yangon"
+        ]
+        
+        city_full: str = st.selectbox(
+            "Select your city / township",
+            township_options,
+            key="city_input"
+        )
+        
+        city = city_full.split(" (")[0] # Extract city name for processing
+
+        if city == "Select a location...":
+            city = ""
+            
+        st.session_state['selected_city'] = city
+
+        st.header("📏 Greenhouse Size")
+
+        area_input = ""
+
+        def check_for_custom_selection():
+            if st.session_state.greenhouse_size_selector == "Custom...":
+                st.session_state.custom_mode = True
+
+        def return_to_select_mode():
+            st.session_state.custom_mode = False
+            st.session_state.greenhouse_size_selector = "Select a size..."
+
+        size_widget_placeholder = st.empty()
+
+        if st.session_state.get("custom_mode", False):
+            area_input = size_widget_placeholder.text_input(
+                "Enter custom area (sq. meters)",
+                key="custom_area_input",
+                placeholder="e.g., 130"
+            )
+            st.button("↩️ Back to list", on_click=return_to_select_mode, key="size_back_button")
+        else:
+            size_options = ["Select a size...", "50", "100", "150", "200", "300", "500", "Custom..."]
+            selected_size = size_widget_placeholder.selectbox(
+                "Greenhouse size (sq. meters)",
+                size_options,
+                key="greenhouse_size_selector",
+                on_change=check_for_custom_selection,
+                help="Select a standard size or choose 'Custom...' to enter a specific value."
+            )
+            if selected_size and selected_size not in ["Select a size...", "Custom..."]:
+                area_input = selected_size
+
+        st.write("")
+
+        st.header("🚰 Water & Fertilizer")
+
+        water_availability = ""
+
+        def check_for_water_custom_selection():
+            if st.session_state.water_availability_selector == "Custom...":
+                st.session_state.water_custom_mode = True
+
+        def return_to_water_select_mode():
+            st.session_state.water_custom_mode = False
+            st.session_state.water_availability_selector = "Select amount..."
+
+        water_widget_placeholder = st.empty()
+
+        if st.session_state.get("water_custom_mode", False):
+            water_availability = water_widget_placeholder.text_input(
+                "Enter water availability (liters per day)",
+                key="custom_water_input",
+                placeholder="e.g., 1500"
+            )
+            st.button("↩️ Back to list", on_click=return_to_water_select_mode, key="water_back_button")
+        else:
+            water_options = ["Select amount...", "100", "300", "500", "700", "1000", "1500", "Custom..."]
+            selected_water = water_widget_placeholder.selectbox(
+                "Water availability (liters per day)",
+                water_options,
+                key="water_availability_selector",
+                on_change=check_for_water_custom_selection,
+                help="Select a standard amount or choose 'Custom...' to enter a specific value."
+            )
+            if selected_water and selected_water not in ["Select amount...", "Custom..."]:
+                water_availability = selected_water
+
+        fertilizer_type = st.selectbox("Fertilizer type", ["Organic", "Chemical", "Hybrid"], key="fertilizer_type")
+        preferred_crops = st.text_input("Preferred crops (comma-separated, optional)", key="preferred_crops", placeholder="e.g., Tomato, Chili", help="List any crops you prefer. The system will try to recommend them if they are suitable for your conditions.")
+
+        def set_fetch_data():
+            st.session_state["fetch_data"] = True
+            st.session_state["show_sidebar_water_fert"] = False
+
+        if city and area_input:
+            st.button("🔍 Get Weather & Crop Data", key="fetch_data_btn", on_click=set_fetch_data)
+else:
+    city = ""
+    area_input = ""
+    water_availability = ""
+    fertilizer_type = ""
+    preferred_crops = ""
+
+# --- Home Page Handling ---
+if 'show_dashboard' not in st.session_state:
+    st.session_state['show_dashboard'] = False
+
+if not st.session_state.get('show_dashboard', False):
+    show_home_page()
+    st.stop() # Stop execution if home page is shown
+
+# --- Data Fetching and Processing Block ---
+# This block runs ONLY when the 'fetch_data' button is clicked.
+if st.session_state.get("fetch_data", False):
+    with st.spinner("🛰️ Fetching coordinates, weather, and processing data..."):
+        # 1. Store sidebar inputs in session state
+        st.session_state['selected_city'] = city
+        st.session_state['area_input'] = area_input
+        st.session_state['water_availability'] = water_availability
+
+
+        # 2. Validate Area Input
+        try:
+            st.session_state['area_sqm'] = float(area_input)
+        except (ValueError, TypeError):
+            st.error("Please enter a valid number for the greenhouse area.")
+            st.session_state['fetch_data'] = False # Reset flag
+            st.stop()
+
+        # 3. Look up city in Knowledge Base
+        lat, lon, region = None, None, None
+        if city and not knowledge_base_df.empty:
+            city_lower = city.lower().strip()
+            city_filter = knowledge_base_df['KnownTownships_lower'].str.contains(city_lower, na=False)
+            city_specific_kb = knowledge_base_df[city_filter]
+
+            if city_specific_kb.empty:
+                region_filter = knowledge_base_df['KnownRegions_lower'] == city_lower
+                city_specific_kb = knowledge_base_df[region_filter]
+
+            if not city_specific_kb.empty:
+                city_info = city_specific_kb.iloc[0]
+                lat = city_info.get('Latitude')
+                lon = city_info.get('Longitude')
+                region = city_info.get('KnownRegions')
+                st.session_state['selected_lat'] = lat
+                st.session_state['selected_lon'] = lon
+                st.session_state['selected_region'] = region
+
+        if not region or not lat or not lon:
+            st.error(f"Could not find location information for '{city}'. Please check the spelling or try a major town.")
+            st.session_state['fetch_data'] = False # Reset flag
+            st.stop()
+
+        # 4. Fetch Weather Data
+        weather = get_weather_data(lat, lon)
+        if not weather:
+            st.error("💨 No weather data received from the weather API. Please try again later.")
+            st.session_state['fetch_data'] = False # Reset flag
+            st.stop()
+        st.session_state['weather_data'] = weather
+        
+        # 5. Set flag to indicate data is ready for display
+        st.session_state['data_ready'] = True
+        st.session_state['fetch_data'] = False # Reset flag to prevent re-running this block
+
+# --- Main Content Display Block ---
+# This block runs if the data is ready to be shown.
+if st.session_state.get("data_ready", False):
+    # Retrieve all necessary data from session_state
+    weather = st.session_state.get('weather_data', {})
+    city = st.session_state.get('selected_city', '')
+    region = st.session_state.get('selected_region', '')
+    area_input_str = st.session_state.get('area_input', '0')
+    water_avail_str = st.session_state.get('water_availability', '0')
+    fert_type = st.session_state.get('fertilizer_type', 'Organic')
+    pref_crops_str = st.session_state.get('preferred_crops', '')
+
+    st.markdown(f"📍 **Displaying results for:** `{city}` (Region: `{region}`) | **Greenhouse Area:** `{area_input_str} sqm`")
+    
+    # Display Weather and Market Info
+    display_weather_information(st, weather)
+    display_forecast_graph(st, weather, go)
+    display_main_market_data(st)
+
+    # Display AI Recommendations
+    st.markdown("## 🌿 AI Crop Recommendations & Planning")
+    with st.spinner("🧠 Analyzing your farm data for top crop choices..."):
+        hourly_data = weather.get('hourly', {})
+        daily_data = weather.get('daily', {})
+
+        current_temp = hourly_data.get('temperature_2m', [DEFAULT_TEMP])[0]
+        current_humidity = hourly_data.get('relativehumidity_2m', [DEFAULT_HUMIDITY])[0]
+        current_rainfall = daily_data.get('precipitation_sum', [DEFAULT_RAINFALL])[0]
+
+        recommendations = ml_recommend_crops(
+            knowledge_base_df=knowledge_base_df,
+            city=city,
+            temp=current_temp,
+            rainfall=current_rainfall,
+            humidity=current_humidity,
+            water_availability=water_avail_str,
+            fertilizer_type=fert_type,
+            greenhouse_size=area_input_str,
+            preferred_crops_str=pref_crops_str,
+            price_per_kg=DEFAULT_PRICE_PER_KG,
+            region=region,
+            CROP_GROWTH_TIMELINES=CROP_GROWTH_TIMELINES,
+            predict_yield_func=predict_yield,
+            predict_profit_func=predict_profit,
+            planting_date_func=None  # Still None as per original
+        )
+
+        if recommendations:
+            # --- START: New Logic for Handling Preferred Crop ---
+            podium_crops = recommendations[:3]
+            crops_to_display = podium_crops  # Default to showing the top 3
+            not_suitable_message = ""
+            title_message = "### 🏆 Top 3 Recommended Crops"
+
+            if pref_crops_str and pref_crops_str.strip():
+                # Using the first crop in the user's comma-separated list
+                preferred_crop_name = pref_crops_str.split(',')[0].strip().lower()
+                
+                # Search for the preferred crop in the *entire* recommendation list
+                found_crop_item = None
+                for rec in recommendations:
+                    if rec['crop_name'].lower() == preferred_crop_name:
+                        found_crop_item = rec
+                        break
+                
+                if found_crop_item:
+                    # Preferred crop was found, show only that one.
+                    crops_to_display = [found_crop_item]
+                    title_message = "### 🌱 Your Preferred Crop Recommendation"
+                else:
+                    # Preferred crop was not suitable at all.
+                    not_suitable_message = f"Your preferred crop, **{preferred_crop_name.title()}**, was not found in the list of suitable crops for this region. Here are the top 3 alternatives."
+            
+            # --- END: New Logic ---
+
+            # Simplified call to the display function
+            display_ml_recommendations(
+                st_obj=st,
+                knowledge_base_df=knowledge_base_df,
+                city=city,
+                region=region,
+                weather_data=weather,
+                area_input=area_input_str,
+                DEFAULT_GREENHOUSE_SIZE=DEFAULT_GREENHOUSE_SIZE,
+                DEFAULT_TEMP=DEFAULT_TEMP,
+                DEFAULT_RAINFALL=DEFAULT_RAINFALL,
+                DEFAULT_HUMIDITY=DEFAULT_HUMIDITY,
+                DEFAULT_PRICE_PER_KG=DEFAULT_PRICE_PER_KG,
+                CROP_GROWTH_TIMELINES=CROP_GROWTH_TIMELINES,
+                project_root=PROJECT_ROOT,
+                predict_yield_func=predict_yield,
+                predict_profit_func=predict_profit,
+                get_planting_date_recommendations_func=get_planting_date_recommendations,
+                fetch_historical_weather_func=fetch_historical_weather,
+                market_predictor=market_predictor,
+                # Pass the new display-specific variables
+                crops_to_display=crops_to_display,
+                title_message=title_message,
+                not_suitable_message=not_suitable_message
+            )
+        else:
+            st.info("No crop recommendations available based on the current criteria. Try adjusting sidebar filters.")

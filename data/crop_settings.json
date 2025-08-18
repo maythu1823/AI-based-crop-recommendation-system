@@ -1,0 +1,1573 @@
+{
+    "Pathein (Ayeyarwady)": [
+      {
+        "crop_name": "Rice",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [70, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.7,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [100, 500],
+        "water_needs_liter_per_day_per_sq_meter": 5.0
+      },
+      {
+        "crop_name": "Sesame",
+        "optimal_temperature": [25, 30],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["July", "August"],
+        "yield_per_sq_meter_kg": 0.4,
+        "plants_per_sq_meter": 40,
+        "optimal_greenhouse_size_sq_meter": [50, 150],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Groundnut",
+        "optimal_temperature": [24, 32],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 30,
+        "optimal_greenhouse_size_sq_meter": [60, 200],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Jute",
+        "optimal_temperature": [25, 34],
+        "optimal_humidity": [65, 85],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["March", "April"],
+        "yield_per_sq_meter_kg": 1.2,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [80, 300],
+        "water_needs_liter_per_day_per_sq_meter": 4.0
+      },
+      {
+        "crop_name": "Maize",
+        "optimal_temperature": [21, 30],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Chemical",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.8,
+        "plants_per_sq_meter": 10,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 3.5
+      },
+      {
+        "crop_name": "Pulses",
+        "optimal_temperature": [22, 30],
+        "optimal_humidity": [45, 70],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["November", "December"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 35,
+        "optimal_greenhouse_size_sq_meter": [50, 200],
+        "water_needs_liter_per_day_per_sq_meter": 2.8
+      },
+      {
+        "crop_name": "Tobacco",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Chemical",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 0.9,
+        "plants_per_sq_meter": 15,
+        "optimal_greenhouse_size_sq_meter": [60, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.2
+      },
+      {
+        "crop_name": "Chili",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [60, 75],
+        "fertilizer_preference": "Chemical",
+        "planting_season": ["November", "January"],
+        "yield_per_sq_meter_kg": 0.7,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [40, 100],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Banana",
+        "optimal_temperature": [26, 30],
+        "optimal_humidity": [75, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["March", "April"],
+        "yield_per_sq_meter_kg": 2.0,
+        "plants_per_sq_meter": 4,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 6.0
+      },
+      {
+        "crop_name": "Tamarind",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 1.5,
+        "plants_per_sq_meter": 2,
+        "optimal_greenhouse_size_sq_meter": [150, 400],
+        "water_needs_liter_per_day_per_sq_meter": 2.0
+      }
+    ],
+    "Bago": [
+      {
+        "crop_name": "Rice",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.5,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [100, 1000],
+        "water_needs_liter_per_day_per_sq_meter": 5.0
+      },
+      {
+        "crop_name": "Betel",
+        "optimal_temperature": [22, 30],
+        "optimal_humidity": [70, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.4,
+        "plants_per_sq_meter": 6,
+        "optimal_greenhouse_size_sq_meter": [100, 500],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Sugarcane",
+        "optimal_temperature": [25, 33],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["December", "February"],
+        "yield_per_sq_meter_kg": 1.2,
+        "plants_per_sq_meter": 4,
+        "optimal_greenhouse_size_sq_meter": [200, 1000],
+        "water_needs_liter_per_day_per_sq_meter": 4.5
+      },
+      {
+        "crop_name": "Maize",
+        "optimal_temperature": [20, 32],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Chemical",
+        "planting_season": ["July", "August"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 6,
+        "optimal_greenhouse_size_sq_meter": [100, 500],
+        "water_needs_liter_per_day_per_sq_meter": 4.0
+      },
+      {
+        "crop_name": "Groundnut",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 0.4,
+        "plants_per_sq_meter": 30,
+        "optimal_greenhouse_size_sq_meter": [50, 200],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Sesame",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.3,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [50, 200],
+        "water_needs_liter_per_day_per_sq_meter": 2.0
+      },
+      {
+        "crop_name": "Sunflower",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["November", "December"],
+        "yield_per_sq_meter_kg": 0.35,
+        "plants_per_sq_meter": 10,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Cotton",
+        "optimal_temperature": [22, 32],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Chemical",
+        "planting_season": ["June", "August"],
+        "yield_per_sq_meter_kg": 0.25,
+        "plants_per_sq_meter": 4,
+        "optimal_greenhouse_size_sq_meter": [200, 500],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Jute",
+        "optimal_temperature": [24, 35],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.5,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [100, 500],
+        "water_needs_liter_per_day_per_sq_meter": 3.5
+      },
+      {
+        "crop_name": "Pulses",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 0.5,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [50, 300],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      }
+    ],
+    "Hakha (Chin)": [
+      {
+        "crop_name": "Groundnut",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [40, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Sesame",
+        "optimal_temperature": [25, 32],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.4,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [30, 100],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Sunflower",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [45, 65],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["March", "April"],
+        "yield_per_sq_meter_kg": 0.8,
+        "plants_per_sq_meter": 15,
+        "optimal_greenhouse_size_sq_meter": [60, 180],
+        "water_needs_liter_per_day_per_sq_meter": 4.0
+      },
+      {
+        "crop_name": "Sugarcane",
+        "optimal_temperature": [26, 35],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["February", "March"],
+        "yield_per_sq_meter_kg": 1.2,
+        "plants_per_sq_meter": 12,
+        "optimal_greenhouse_size_sq_meter": [100, 250],
+        "water_needs_liter_per_day_per_sq_meter": 5.5
+      },
+      {
+        "crop_name": "Maize",
+        "optimal_temperature": [18, 27],
+        "optimal_humidity": [50, 75],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["April", "May"],
+        "yield_per_sq_meter_kg": 1.0,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [50, 200],
+        "water_needs_liter_per_day_per_sq_meter": 3.2
+      },
+      {
+        "crop_name": "Banana",
+        "optimal_temperature": [26, 30],
+        "optimal_humidity": [70, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 2.0,
+        "plants_per_sq_meter": 4,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 6.0
+      },
+      {
+        "crop_name": "Coffee",
+        "optimal_temperature": [18, 24],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.3,
+        "plants_per_sq_meter": 8,
+        "optimal_greenhouse_size_sq_meter": [70, 180],
+        "water_needs_liter_per_day_per_sq_meter": 2.8
+      },
+      {
+        "crop_name": "Konjac",
+        "optimal_temperature": [25, 30],
+        "optimal_humidity": [65, 85],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["April", "May"],
+        "yield_per_sq_meter_kg": 0.7,
+        "plants_per_sq_meter": 10,
+        "optimal_greenhouse_size_sq_meter": [50, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.6
+      },
+      {
+        "crop_name": "Apple",
+        "optimal_temperature": [15, 22],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["November", "December"],
+        "yield_per_sq_meter_kg": 1.5,
+        "plants_per_sq_meter": 6,
+        "optimal_greenhouse_size_sq_meter": [80, 200],
+        "water_needs_liter_per_day_per_sq_meter": 4.5
+      },
+      {
+        "crop_name": "Orange",
+        "optimal_temperature": [15, 30],
+        "optimal_humidity": [55, 75],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 1.8,
+        "plants_per_sq_meter": 5,
+        "optimal_greenhouse_size_sq_meter": [80, 220],
+        "water_needs_liter_per_day_per_sq_meter": 4.8
+      }
+    ],
+    "Loikaw (Kayah)": [
+      {
+        "crop_name": "Rice",
+        "optimal_temperature": [20, 35],
+        "optimal_humidity": [70, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.9,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 5.0
+      },
+      {
+        "crop_name": "Millet",
+        "optimal_temperature": [20, 35],
+        "optimal_humidity": [70, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.85,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 5.0
+      },
+      {
+        "crop_name": "Maize",
+        "optimal_temperature": [18, 27],
+        "optimal_humidity": [50, 75],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["April", "May"],
+        "yield_per_sq_meter_kg": 1.0,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [50, 200],
+        "water_needs_liter_per_day_per_sq_meter": 3.2
+      },
+      {
+        "crop_name": "Sesame",
+        "optimal_temperature": [25, 32],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.4,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [30, 100],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Groundnut",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [40, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Garlic",
+        "optimal_temperature": [12, 25],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 0.9,
+        "plants_per_sq_meter": 40,
+        "optimal_greenhouse_size_sq_meter": [30, 120],
+        "water_needs_liter_per_day_per_sq_meter": 2.8
+      },
+      {
+        "crop_name": "Rubber",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [60, 85],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 1.5,
+        "plants_per_sq_meter": 3,
+        "optimal_greenhouse_size_sq_meter": [150, 400],
+        "water_needs_liter_per_day_per_sq_meter": 6.0
+      },
+      {
+        "crop_name": "Coffee",
+        "optimal_temperature": [18, 24],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.3,
+        "plants_per_sq_meter": 8,
+        "optimal_greenhouse_size_sq_meter": [70, 180],
+        "water_needs_liter_per_day_per_sq_meter": 2.8
+      },
+      {
+        "crop_name": "Tea",
+        "optimal_temperature": [13, 28],
+        "optimal_humidity": [65, 85],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["April", "May"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 6,
+        "optimal_greenhouse_size_sq_meter": [60, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.7
+      },
+      {
+        "crop_name": "Soyabean",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.7,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [40, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.4
+      }  
+      ],
+    "Magway": [
+      {
+        "crop_name": "Rice",
+        "optimal_temperature": [20, 35],
+        "optimal_humidity": [70, 90],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.9,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [100, 300],
+        "water_needs_liter_per_day_per_sq_meter": 5.0
+      },
+      {
+        "crop_name": "Sesame",
+        "optimal_temperature": [25, 32],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["June", "July"],
+        "yield_per_sq_meter_kg": 0.4,
+        "plants_per_sq_meter": 25,
+        "optimal_greenhouse_size_sq_meter": [30, 100],
+        "water_needs_liter_per_day_per_sq_meter": 2.5
+      },
+      {
+        "crop_name": "Groundnut",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 20,
+        "optimal_greenhouse_size_sq_meter": [40, 150],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Sunflower",
+        "optimal_temperature": [20, 30],
+        "optimal_humidity": [45, 65],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["March", "April"],
+        "yield_per_sq_meter_kg": 0.8,
+        "plants_per_sq_meter": 15,
+        "optimal_greenhouse_size_sq_meter": [60, 180],
+        "water_needs_liter_per_day_per_sq_meter": 4.0
+      },
+      {
+        "crop_name": "Cotton",
+        "optimal_temperature": [25, 35],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 0.7,
+        "plants_per_sq_meter": 10,
+        "optimal_greenhouse_size_sq_meter": [50, 160],
+        "water_needs_liter_per_day_per_sq_meter": 3.8
+      },
+      {
+        "crop_name": "Sugarcane",
+        "optimal_temperature": [26, 35],
+        "optimal_humidity": [60, 80],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["February", "March"],
+        "yield_per_sq_meter_kg": 1.2,
+        "plants_per_sq_meter": 12,
+        "optimal_greenhouse_size_sq_meter": [100, 250],
+        "water_needs_liter_per_day_per_sq_meter": 5.5
+      },
+      {
+        "crop_name": "Potato",
+        "optimal_temperature": [15, 25],
+        "optimal_humidity": [65, 80],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 1.0,
+        "plants_per_sq_meter": 30,
+        "optimal_greenhouse_size_sq_meter": [40, 120],
+        "water_needs_liter_per_day_per_sq_meter": 3.5
+      },
+      {
+        "crop_name": "Beans",
+        "optimal_temperature": [18, 28],
+        "optimal_humidity": [50, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["October", "November"],
+        "yield_per_sq_meter_kg": 0.6,
+        "plants_per_sq_meter": 30,
+        "optimal_greenhouse_size_sq_meter": [40, 130],
+        "water_needs_liter_per_day_per_sq_meter": 3.0
+      },
+      {
+        "crop_name": "Tobacco",
+        "optimal_temperature": [20, 32],
+        "optimal_humidity": [60, 70],
+        "fertilizer_preference": "Organic",
+        "planting_season": ["November", "December"],
+        "yield_per_sq_meter_kg": 0.8,
+        "plants_per_sq_meter": 12,
+        "optimal_greenhouse_size_sq_meter": [60, 180],
+        "water_needs_liter_per_day_per_sq_meter": 3.9
+      },
+      {
+        "crop_name": "Toddy Palm",
+        "optimal_temperature": [27, 38],
+        "optimal_humidity": [40, 60],
+        "fertilizer_preference": "Hybrid",
+        "planting_season": ["May", "June"],
+        "yield_per_sq_meter_kg": 1.5,
+        "plants_per_sq_meter": 1,
+        "optimal_greenhouse_size_sq_meter": [200, 500],
+        "water_needs_liter_per_day_per_sq_meter": 2.0
+      }
+      ],
+      "Hpa-an (Kayin)": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0
+        },
+        {
+          "crop_name": "Rubber",
+          "optimal_temperature": [24, 34],
+          "optimal_humidity": [75, 90],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.1,
+          "plants_per_sq_meter": 0.25,
+          "optimal_greenhouse_size_sq_meter": [500, 2000],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Betel",
+          "optimal_temperature": [22, 30],
+          "optimal_humidity": [70, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["April", "June"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 2,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Durian",
+          "optimal_temperature": [24, 32],
+          "optimal_humidity": [70, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "July"],
+          "yield_per_sq_meter_kg": 0.8,
+          "plants_per_sq_meter": 0.15,
+          "optimal_greenhouse_size_sq_meter": [500, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 4.5
+        },
+        {
+          "crop_name": "Cardamom",
+          "optimal_temperature": [18, 28],
+          "optimal_humidity": [70, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["April", "May"],
+          "yield_per_sq_meter_kg": 0.2,
+          "plants_per_sq_meter": 3,
+          "optimal_greenhouse_size_sq_meter": [100, 400],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Coffee",
+          "optimal_temperature": [18, 24],
+          "optimal_humidity": [65, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["May", "July"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 1.5,
+          "optimal_greenhouse_size_sq_meter": [200, 600],
+          "water_needs_liter_per_day_per_sq_meter": 2.8
+        },
+        {
+          "crop_name": "Mangosteen",
+          "optimal_temperature": [25, 32],
+          "optimal_humidity": [75, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [300, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Avocado",
+          "optimal_temperature": [16, 28],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [300, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Groundnut",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Carrot",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["November", "January"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 50,
+          "optimal_greenhouse_size_sq_meter": [30, 100],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        }
+      ],
+      "Mandalay": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0
+        },
+        {
+          "crop_name": "Wheat",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["November", "December"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 40,
+          "optimal_greenhouse_size_sq_meter": [100, 500],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Maize",
+          "optimal_temperature": [20, 32],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["July", "August"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 6,
+          "optimal_greenhouse_size_sq_meter": [100, 500],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Peanut",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Sesame",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [40, 60],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 20,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Cotton",
+          "optimal_temperature": [22, 32],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.25,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 500],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Legumes",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Tobacco",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["November", "January"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 16,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Chili",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["September", "October"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 10,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Cabbage",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "December"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [30, 100],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        }
+      ],
+      "Mawlamyine (Mon)": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0
+        },
+        {
+          "crop_name": "Sugarcane",
+          "optimal_temperature": [25, 33],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["December", "February"],
+          "yield_per_sq_meter_kg": 1.2,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 4.5
+        },
+        {
+          "crop_name": "Beans",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Pomelo",
+          "optimal_temperature": [24, 32],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.7,
+          "plants_per_sq_meter": 0.1,
+          "optimal_greenhouse_size_sq_meter": [400, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Durian",
+          "optimal_temperature": [24, 32],
+          "optimal_humidity": [70, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "July"],
+          "yield_per_sq_meter_kg": 0.8,
+          "plants_per_sq_meter": 0.15,
+          "optimal_greenhouse_size_sq_meter": [500, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 4.5
+        },
+        {
+          "crop_name": "Rambutan",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [75, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [400, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.8
+        },
+        {
+          "crop_name": "Maize",
+          "optimal_temperature": [20, 32],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["July", "August"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 6,
+          "optimal_greenhouse_size_sq_meter": [100, 500],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Peanut",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Watermelon",
+          "optimal_temperature": [22, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["January", "March"],
+          "yield_per_sq_meter_kg": 1.5,
+          "plants_per_sq_meter": 1.5,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Sunflower",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [40, 60],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["November", "December"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 20,
+          "optimal_greenhouse_size_sq_meter": [100, 400],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        }
+      ],
+      "Naypyidaw": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0
+        },
+        {
+          "crop_name": "Sugarcane",
+          "optimal_temperature": [25, 33],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["December", "February"],
+          "yield_per_sq_meter_kg": 1.2,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 4.5
+        },
+        {
+          "crop_name": "Pulses",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Maize",
+          "optimal_temperature": [20, 32],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["July", "August"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 6,
+          "optimal_greenhouse_size_sq_meter": [100, 500],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Onion",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["November", "January"],
+          "yield_per_sq_meter_kg": 0.7,
+          "plants_per_sq_meter": 40,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Ginger",
+          "optimal_temperature": [22, 28],
+          "optimal_humidity": [70, 85],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Coriander",
+          "optimal_temperature": [18, 28],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 50,
+          "optimal_greenhouse_size_sq_meter": [30, 100],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Chili",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["September", "October"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 10,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Turmeric",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Guava",
+          "optimal_temperature": [25, 32],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "July"],
+          "yield_per_sq_meter_kg": 0.7,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [300, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        }
+      ],
+      "Sittwe (Rakhine)": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0
+        },
+        {
+          "crop_name": "Groundnut",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Sesame",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [40, 60],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 20,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Beans",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Onion",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["November", "January"],
+          "yield_per_sq_meter_kg": 0.7,
+          "plants_per_sq_meter": 40,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Maize",
+          "optimal_temperature": [20, 32],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["July", "August"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 6,
+          "optimal_greenhouse_size_sq_meter": [100, 500],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Coriander",
+          "optimal_temperature": [18, 28],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 50,
+          "optimal_greenhouse_size_sq_meter": [30, 100],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Ginger",
+          "optimal_temperature": [22, 28],
+          "optimal_humidity": [70, 85],
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Turmeric",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Sugarcane",
+          "optimal_temperature": [25, 33],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["December", "February"],
+          "yield_per_sq_meter_kg": 1.2,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 4.5
+        }
+      ],
+      "Sagaing": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "NPK compound + Urea",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0,
+          "estimated_price_MMK_per_kg": [4000, 5000]
+        },
+        {
+          "crop_name": "Sugarcane",
+          "optimal_temperature": [25, 33],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["December", "February"],
+          "yield_per_sq_meter_kg": 1.2,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 4.5
+        },
+        {
+          "crop_name": "Wheat",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["November", "December"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 40,
+          "optimal_greenhouse_size_sq_meter": [100, 500],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Logan fruit",
+          "optimal_temperature": [24, 32],
+          "optimal_humidity": [70, 85],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [300, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.8
+        },
+        {
+          "crop_name": "Pulses",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Sesame",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [40, 60],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 20,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Peanut",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Cotton",
+          "optimal_temperature": [22, 32],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.25,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 500],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Tobacco",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["November", "January"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 16,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Niger seeds",
+          "optimal_temperature": [20, 28],
+          "optimal_humidity": [50, 60],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["August", "September"],
+          "yield_per_sq_meter_kg": 0.25,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [50, 200],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        }
+      ],
+      "Taunggyi (Shan)": [
+        {
+          "crop_name": "Tea",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [70, 90],
+          "fertilizer_preference": "Organic compost + Potassium",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [200, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Coffee",
+          "optimal_temperature": [18, 24],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.2,
+          "plants_per_sq_meter": 2,
+          "optimal_greenhouse_size_sq_meter": [500, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Avocado",
+          "optimal_temperature": [16, 27],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["May", "July"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 0.1,
+          "optimal_greenhouse_size_sq_meter": [300, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Damson (Plum)",
+          "optimal_temperature": [10, 20],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["December", "January"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [300, 700],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Strawberry",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.8,
+          "plants_per_sq_meter": 6,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 2.8
+        },
+        {
+          "crop_name": "Mulberry",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["June", "August"],
+          "yield_per_sq_meter_kg": 0.5,
+          "plants_per_sq_meter": 2,
+          "optimal_greenhouse_size_sq_meter": [100, 400],
+          "water_needs_liter_per_day_per_sq_meter": 2.0
+        },
+        {
+          "crop_name": "Apple",
+          "optimal_temperature": [10, 20],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["January", "February"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [400, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        },
+        {
+          "crop_name": "Orange",
+          "optimal_temperature": [18, 28],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 0.7,
+          "plants_per_sq_meter": 0.2,
+          "optimal_greenhouse_size_sq_meter": [300, 800],
+          "water_needs_liter_per_day_per_sq_meter": 3.2
+        },
+        {
+          "crop_name": "Pumpkin",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["September", "October"],
+          "yield_per_sq_meter_kg": 1.2,
+          "plants_per_sq_meter": 1.5,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Tomato",
+          "optimal_temperature": [18, 27],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["September", "October"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [50, 400],
+          "water_needs_liter_per_day_per_sq_meter": 3.5
+        }
+        
+      ],
+      "Dawei (Tanintharyi)": [
+        { 
+          "crop_name": "Rice", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Coconut", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Cashew", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Chili", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Banana", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Papaya", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Betel", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Mango", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Tamarind", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        },
+        { 
+          "crop_name": "Lime", 
+          "optimal_temperature": [22, 35], 
+          "optimal_humidity": [55, 85], 
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["June", "August"], 
+          "yield_per_sq_meter_kg": 0.5, 
+          "plants_per_sq_meter": 20, 
+          "optimal_greenhouse_size_sq_meter": [50, 200], 
+          "water_needs_liter_per_day_per_sq_meter": 3.0 
+        }
+      ],
+      "Yangon": [
+        {
+          "crop_name": "Rice",
+          "optimal_temperature": [25, 35],
+          "optimal_humidity": [70, 90],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["June", "July"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 25,
+          "optimal_greenhouse_size_sq_meter": [100, 1000],
+          "water_needs_liter_per_day_per_sq_meter": 5.0
+        },
+        {
+          "crop_name": "Onion",
+          "optimal_temperature": [13, 24],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["October", "December"],
+          "yield_per_sq_meter_kg": 0.4,
+          "plants_per_sq_meter": 30,
+          "optimal_greenhouse_size_sq_meter": [40, 150],
+          "water_needs_liter_per_day_per_sq_meter": 1.5
+        },
+        {
+          "crop_name": "Garlic",
+          "optimal_temperature": [10, 20],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Organic",
+          "planting_season": ["October", "November"],
+          "yield_per_sq_meter_kg": 0.3,
+          "plants_per_sq_meter": 40,
+          "optimal_greenhouse_size_sq_meter": [60, 180],
+          "water_needs_liter_per_day_per_sq_meter": 1.0
+        },
+        {
+          "crop_name": "Tomato",
+          "optimal_temperature": [20, 28],
+          "optimal_humidity": [65, 75],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["March", "May"],
+          "yield_per_sq_meter_kg": 1.5,
+          "plants_per_sq_meter": 4,
+          "optimal_greenhouse_size_sq_meter": [100, 250],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Cabbage",
+          "optimal_temperature": [15, 25],
+          "optimal_humidity": [60, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["October", "December"],
+          "yield_per_sq_meter_kg": 1.0,
+          "plants_per_sq_meter": 5,
+          "optimal_greenhouse_size_sq_meter": [30, 100],
+          "water_needs_liter_per_day_per_sq_meter": 2.5
+        },
+        {
+          "crop_name": "Eggplant",
+          "optimal_temperature": [22, 30],
+          "optimal_humidity": [65, 80],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["April", "June"],
+          "yield_per_sq_meter_kg": 1.2,
+          "plants_per_sq_meter": 3,
+          "optimal_greenhouse_size_sq_meter": [80, 180],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        },
+        {
+          "crop_name": "Spinach",
+          "optimal_temperature": [10, 18],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Chemical",
+          "planting_season": ["September", "November"],
+          "yield_per_sq_meter_kg": 0.8,
+          "plants_per_sq_meter": 60,
+          "optimal_greenhouse_size_sq_meter": [30, 100],
+          "water_needs_liter_per_day_per_sq_meter": 1.2
+        },
+        {
+          "crop_name": "Pumpkin",
+          "optimal_temperature": [18, 30],
+          "optimal_humidity": [60, 75],
+          "fertilizer_preference": "Organic", 
+          "planting_season": ["May", "June"],
+          "yield_per_sq_meter_kg": 2.5,
+          "plants_per_sq_meter": 1,
+          "optimal_greenhouse_size_sq_meter": [100, 400],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Watermelon",
+          "optimal_temperature": [22, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["January", "March"],
+          "yield_per_sq_meter_kg": 1.5,
+          "plants_per_sq_meter": 1.5,
+          "optimal_greenhouse_size_sq_meter": [100, 300],
+          "water_needs_liter_per_day_per_sq_meter": 4.0
+        },
+        {
+          "crop_name": "Chili",
+          "optimal_temperature": [20, 30],
+          "optimal_humidity": [50, 70],
+          "fertilizer_preference": "Hybrid",
+          "planting_season": ["September", "October"],
+          "yield_per_sq_meter_kg": 0.6,
+          "plants_per_sq_meter": 10,
+          "optimal_greenhouse_size_sq_meter": [50, 300],
+          "water_needs_liter_per_day_per_sq_meter": 3.0
+        }
+      ]
+      
+  }

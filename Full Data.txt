@@ -1,0 +1,332 @@
+Township,Region,Latitude,Longitude,Suitable Crops,Water Availability (L/day),Fertilizer Type,Average Market Price (MMK/kg)
+Township_1,Mandalay,21.574839,96.358457,"Mango, Onion, Peanut",1345,Chemical,1050 – 3250
+Township_2,Sagaing,19.285937,95.438751,"Maize, Cotton, Beans",1182,Hybrid,900 – 2700
+Township_3,Bago,18.675309,96.284729,"Sugarcane, Maize, Rice",1579,Organic,1300 – 3550
+Township_4,Magway,20.025374,94.825193,"Groundnut, Beans, Sesame",1011,Hybrid,1120 – 3430
+Township_5,Kayah,18.735619,97.489834,"Sesame, Groundnut, Rice",1379,Chemical,1400 – 3650
+Township_6,Kayin,16.899205,97.639214,"Rice, Banana, Cassava",1472,Organic,900 – 2500
+Township_7,Mon,16.586982,97.542392,"Rubber, Cashew, Betel Nut",1553,Organic,1400 – 3900
+Township_8,Ayeyarwady,17.635483,95.415839,"Chickpea, Rice, Sunflower",1263,Hybrid,700 – 2250
+Township_9,Naypyidaw,19.771624,96.106348,"Vegetables, Paddy, Mango",1325,Chemical,1800 – 3100
+Township_10,Shan,21.073948,97.041834,"Potato, Tea, Strawberry",1432,Organic,1600 – 4100
+Township_11,Yangon,16.785294,96.150843,"Vegetables, Paddy, Lentil",1721,Chemical,1300 – 2800
+Township_12,Tanintharyi,12.984135,99.868433,"Rubber, Oil Palm, Durian",1583,Organic,1500 – 3700
+Township_13,Rakhine,20.345983,93.350973,"Rice, Chili, Areca Nut",1159,Hybrid,800 – 2750
+Township_14,Chin,21.140284,93.597354,"Potato, Corn, Millet",1047,Organic,900 – 2400
+Township_15,Ayeyarwady,17.497432,95.348191,"Rice, Chickpea, Sunflower",1293,Chemical,700 – 2200
+Township_16,Bago,18.547264,96.266258,"Sugarcane, Rice, Maize",1389,Hybrid,1100 – 3200
+Township_17,Magway,20.134962,94.930274,"Sesame, Groundnut, Beans",1072,Chemical,1150 – 3400
+Township_18,Kayah,18.789824,97.511623,"Rice, Sesame, Groundnut",1360,Organic,1300 – 3500
+Township_19,Kayin,16.887253,97.641739,"Banana, Cassava, Rice",1420,Chemical,900 – 2600
+Township_20,Mon,16.581927,97.539127,"Cashew, Rubber, Betel Nut",1567,Organic,1500 – 3950
+Township_21,Ayeyarwady,17.615839,95.424918,"Rice, Chickpea, Sunflower",1257,Hybrid,700 – 2300
+Township_22,Naypyidaw,19.763951,96.102948,"Mango, Vegetables, Paddy",1331,Chemical,1700 – 3000
+Township_23,Shan,21.015489,97.035193,"Tea, Potato, Strawberry",1442,Organic,1550 – 4000
+Township_24,Yangon,16.78293,96.176541,"Paddy, Vegetables, Lentil",1730,Chemical,1250 – 2850
+Township_25,Tanintharyi,12.963759,99.865392,"Oil Palm, Rubber, Durian",1602,Organic,1450 – 3750
+Township_26,Rakhine,20.378435,93.340983,"Areca Nut, Chili, Rice",1190,Hybrid,800 – 2800
+Township_27,Chin,21.183543,93.592345,"Millet, Potato, Corn",1080,Organic,950 – 2500
+Township_28,Ayeyarwady,17.535293,95.375481,"Chickpea, Rice, Sunflower",1275,Chemical,700 – 2250
+Township_29,Bago,18.622348,96.294102,"Maize, Rice, Sugarcane",1351,Hybrid,1150 – 3200
+Township_30,Magway,20.188973,94.876839,"Beans, Sesame, Groundnut",1084,Chemical,1100 – 3350
+Township_31,Kayah,18.777219,97.525271,"Groundnut, Rice, Sesame",1340,Organic,1350 – 3550
+Township_32,Kayin,16.889537,97.646197,"Banana, Rice, Cassava",1430,Chemical,850 – 2700
+Township_33,Mon,16.579284,97.54128,"Rubber, Cashew, Betel Nut",1558,Organic,1400 – 3950
+Township_34,Ayeyarwady,17.628459,95.402817,"Rice, Chickpea, Sunflower",1270,Hybrid,700 – 2350
+Township_35,Naypyidaw,19.774509,96.11384,"Vegetables, Mango, Paddy",1338,Chemical,1800 – 3100
+Township_36,Shan,21.025374,97.041203,"Tea, Potato, Strawberry",1450,Organic,1600 – 4100
+Township_37,Yangon,16.781357,96.171528,"Vegetables, Paddy, Lentil",1725,Chemical,1300 – 2850
+Township_38,Tanintharyi,12.978245,99.874136,"Rubber, Durian, Oil Palm",1590,Organic,1500 – 3750
+Township_39,Rakhine,20.390485,93.332394,"Rice, Chili, Areca Nut",1175,Hybrid,800 – 2750
+Township_40,Chin,21.198374,93.586945,"Potato, Corn, Millet",1035,Organic,900 – 2450
+Township_41,Ayeyarwady,17.501932,95.368472,"Chickpea, Rice, Sunflower",1285,Chemical,700 – 2300
+Township_42,Bago,18.556371,96.276481,"Sugarcane, Rice, Maize",1370,Hybrid,1100 – 3200
+Township_43,Magway,20.15384,94.93382,"Sesame, Beans, Groundnut",1105,Chemical,1150 – 3400
+Township_44,Kayah,18.796247,97.520199,"Sesame, Groundnut, Rice",1365,Organic,1300 – 3550
+Township_45,Kayin,16.882019,97.636398,"Banana, Cassava, Rice",1415,Chemical,900 – 2600
+Township_46,Mon,16.58935,97.546872,"Cashew, Rubber, Betel Nut",1560,Organic,1500 – 3900
+Township_47,Ayeyarwady,17.618273,95.425917,"Rice, Chickpea, Sunflower",1260,Hybrid,700 – 2250
+Township_48,Naypyidaw,19.768239,96.105674,"Mango, Vegetables, Paddy",1333,Chemical,1750 – 3050
+Township_49,Shan,21.020374,97.042948,"Tea, Potato, Strawberry",1445,Organic,1550 – 4050
+Township_50,Yangon,16.783982,96.178273,"Paddy, Vegetables, Lentil",1732,Chemical,1250 – 2900
+Township_51,Tanintharyi,12.969473,99.869134,"Oil Palm, Rubber, Durian",1605,Organic,1450 – 3700
+Township_52,Rakhine,20.380932,93.335491,"Areca Nut, Chili, Rice",1195,Hybrid,820 – 2850
+Township_53,Chin,21.17845,93.590239,"Millet, Potato, Corn",1090,Organic,950 – 2500
+Township_54,Ayeyarwady,17.540375,95.377981,"Chickpea, Rice, Sunflower",1278,Chemical,700 – 2300
+Township_55,Bago,18.624937,96.297346,"Maize, Rice, Sugarcane",1345,Hybrid,1150 – 3200
+Township_56,Magway,20.18592,94.878934,"Beans, Sesame, Groundnut",1087,Chemical,1100 – 3350
+Township_57,Kayah,18.779239,97.529272,"Groundnut, Rice, Sesame",1343,Organic,1350 – 3550
+Township_58,Kayin,16.890593,97.648293,"Banana, Rice, Cassava",1432,Chemical,860 – 2750
+Township_59,Mon,16.58392,97.543459,"Rubber, Cashew, Betel Nut",1563,Organic,1400 – 3900
+Township_60,Ayeyarwady,17.627394,95.405194,"Rice, Chickpea, Sunflower",1272,Hybrid,700 – 2350
+Township_61,Naypyidaw,19.77592,96.112984,"Vegetables, Mango, Paddy",1340,Chemical,1800 – 3150
+Township_62,Shan,21.027482,97.038293,"Tea, Potato, Strawberry",1455,Organic,1600 – 4150
+Township_63,Yangon,16.779835,96.169384,"Vegetables, Paddy, Lentil",1728,Chemical,1300 – 2900
+Township_64,Tanintharyi,12.980294,99.875482,"Rubber, Durian, Oil Palm",1588,Organic,1500 – 3800
+Township_65,Rakhine,20.395847,93.330193,"Rice, Chili, Areca Nut",1178,Hybrid,810 – 2750
+Township_66,Chin,21.203849,93.583849,"Potato, Corn, Millet",1037,Organic,900 – 2450
+Township_67,Ayeyarwady,17.504937,95.366392,"Chickpea, Rice, Sunflower",1290,Chemical,700 – 2300
+Township_68,Bago,18.555837,96.280927,"Sugarcane, Rice, Maize",1371,Hybrid,1100 – 3200
+Township_69,Magway,20.156492,94.931283,"Sesame, Beans, Groundnut",1100,Chemical,1150 – 3400
+Township_70,Kayah,18.790293,97.517238,"Sesame, Groundnut, Rice",1368,Organic,1300 – 3550
+Township_71,Kayin,16.88392,97.634829,"Banana, Cassava, Rice",1418,Chemical,900 – 2650
+Township_72,Mon,16.590274,97.548439,"Cashew, Rubber, Betel Nut",1563,Organic,1500 – 3950
+Township_73,Ayeyarwady,17.620193,95.423849,"Rice, Chickpea, Sunflower",1262,Hybrid,700 – 2300
+Township_74,Naypyidaw,19.766492,96.100283,"Mango, Vegetables, Paddy",1335,Chemical,1750 – 3050
+Township_75,Shan,21.016382,97.041928,"Tea, Potato, Strawberry",1447,Organic,1550 – 4050
+Township_76,Yangon,16.784927,96.180382,"Paddy, Vegetables, Lentil",1735,Chemical,1250 – 2900
+Township_77,Tanintharyi,12.971483,99.871027,"Oil Palm, Rubber, Durian",1608,Organic,1450 – 3750
+Township_78,Rakhine,20.38584,93.33849,"Areca Nut, Chili, Rice",1198,Hybrid,825 – 2800
+Township_79,Chin,21.175483,93.589027,"Millet, Potato, Corn",1093,Organic,955 – 2500
+Township_80,Ayeyarwady,17.538293,95.379472,"Chickpea, Rice, Sunflower",1280,Chemical,700 – 2350
+Township_81,Bago,18.630472,96.300284,"Maize, Rice, Sugarcane",1348,Hybrid,1150 – 3200
+Township_82,Magway,20.190283,94.880294,"Beans, Sesame, Groundnut",1090,Chemical,1100 – 3350
+Township_83,Kayah,18.781948,97.532748,"Groundnut, Rice, Sesame",1345,Organic,1350 – 3550
+Township_84,Kayin,16.892948,97.649284,"Banana, Rice, Cassava",1435,Chemical,860 – 2750
+Township_85,Mon,16.585729,97.545839,"Rubber, Cashew, Betel Nut",1565,Organic,1400 – 3950
+Township_86,Ayeyarwady,17.628394,95.406284,"Rice, Chickpea, Sunflower",1275,Hybrid,700 – 2350
+Township_87,Naypyidaw,19.778384,96.114283,"Vegetables, Mango, Paddy",1342,Chemical,1800 – 3150
+Township_88,Shan,21.029384,97.040293,"Tea, Potato, Strawberry",1460,Organic,1600 – 4150
+Township_89,Yangon,16.780482,96.172849,"Vegetables, Paddy, Lentil",1730,Chemical,1300 – 2900
+Township_90,Tanintharyi,12.981482,99.876283,"Rubber, Durian, Oil Palm",1595,Organic,1500 – 3800
+Township_91,Rakhine,20.398482,93.332849,"Rice, Chili, Areca Nut",1180,Hybrid,810 – 2750
+Township_92,Chin,21.205482,93.585849,"Potato, Corn, Millet",1040,Organic,900 – 2450
+Township_93,Ayeyarwady,17.505482,95.369283,"Chickpea, Rice, Sunflower",1292,Chemical,700 – 2300
+Township_94,Bago,18.559482,96.279283,"Sugarcane, Rice, Maize",1375,Hybrid,1100 – 3200
+Township_95,Magway,20.157482,94.932849,"Sesame, Beans, Groundnut",1108,Chemical,1150 – 3400
+Township_96,Kayah,18.792482,97.519283,"Sesame, Groundnut, Rice",1370,Organic,1300 – 3550
+Township_97,Kayin,16.884482,97.635849,"Banana, Cassava, Rice",1417,Chemical,900 – 2650
+Township_98,Mon,16.591482,97.549283,"Cashew, Rubber, Betel Nut",1568,Organic,1500 – 3950
+Township_99,Ayeyarwady,17.621482,95.424283,"Rice, Chickpea, Sunflower",1265,Hybrid,700 – 2300
+Township_100,Naypyidaw,19.767482,96.101283,"Mango, Vegetables, Paddy",1337,Chemical,1750 – 3050
+Township_101,Shan,21.017482,97.042849,"Tea, Potato, Strawberry",1448,Organic,1550 – 4050
+Township_102,Yangon,16.785482,96.179283,"Paddy, Vegetables, Lentil",1733,Chemical,1250 – 2900
+Township_103,Tanintharyi,12.972482,99.872283,"Oil Palm, Rubber, Durian",1607,Organic,1450 – 3750
+Township_104,Rakhine,20.387482,93.339283,"Areca Nut, Chili, Rice",1197,Hybrid,825 – 2800
+Township_105,Chin,21.177482,93.588283,"Millet, Potato, Corn",1092,Organic,955 – 2500
+Township_106,Ayeyarwady,17.537482,95.378283,"Chickpea, Rice, Sunflower",1279,Chemical,700 – 2350
+Township_107,Bago,18.627482,96.296283,"Maize, Rice, Sugarcane",1346,Hybrid,1150 – 3200
+Township_108,Magway,20.186482,94.879283,"Beans, Sesame, Groundnut",1089,Chemical,1100 – 3350
+Township_109,Kayah,18.780482,97.530283,"Groundnut, Rice, Sesame",1342,Organic,1350 – 3550
+Township_110,Kayin,16.891482,97.647283,"Banana, Rice, Cassava",1433,Chemical,860 – 2750
+Township_111,Mon,16.584482,97.544283,"Rubber, Cashew, Betel Nut",1562,Organic,1400 – 3900
+Township_112,Ayeyarwady,17.626482,95.404283,"Rice, Chickpea, Sunflower",1271,Hybrid,700 – 2350
+Township_113,Naypyidaw,19.774482,96.113283,"Vegetables, Mango, Paddy",1341,Chemical,1800 – 3150
+Township_114,Shan,21.026482,97.039283,"Tea, Potato, Strawberry",1453,Organic,1600 – 4150
+Township_115,Yangon,16.778482,96.170283,"Vegetables, Paddy, Lentil",1729,Chemical,1300 – 2900
+Township_116,Tanintharyi,12.979482,99.874283,"Rubber, Durian, Oil Palm",1587,Organic,1500 – 3800
+Township_117,Rakhine,20.393482,93.331283,"Rice, Chili, Areca Nut",1177,Hybrid,810 – 2750
+Township_118,Chin,21.202482,93.582283,"Potato, Corn, Millet",1036,Organic,900 – 2450
+Township_119,Ayeyarwady,17.503482,95.365283,"Chickpea, Rice, Sunflower",1288,Chemical,700 – 2300
+Township_120,Bago,18.554482,96.278283,"Sugarcane, Rice, Maize",1369,Hybrid,1100 – 3200
+Township_121,Magway,20.155482,94.930283,"Sesame, Beans, Groundnut",1098,Chemical,1150 – 3400
+Township_122,Kayah,18.789482,97.516283,"Sesame, Groundnut, Rice",1366,Organic,1300 – 3550
+Township_123,Kayin,16.882482,97.633283,"Banana, Cassava, Rice",1416,Chemical,900 – 2650
+Township_124,Mon,16.589482,97.547283,"Cashew, Rubber, Betel Nut",1561,Organic,1500 – 3950
+Township_125,Ayeyarwady,17.619482,95.422283,"Rice, Chickpea, Sunflower",1261,Hybrid,700 – 2300
+Township_126,Naypyidaw,19.765482,96.099283,"Mango, Vegetables, Paddy",1334,Chemical,1750 – 3050
+Township_127,Shan,21.015482,97.040283,"Tea, Potato, Strawberry",1446,Organic,1550 – 4050
+Township_128,Yangon,16.783482,96.177283,"Paddy, Vegetables, Lentil",1734,Chemical,1250 – 2900
+Township_129,Tanintharyi,12.970482,99.870283,"Oil Palm, Rubber, Durian",1606,Organic,1450 – 3750
+Township_130,Rakhine,20.383482,93.337283,"Areca Nut, Chili, Rice",1196,Hybrid,825 – 2800
+Township_131,Chin,21.174482,93.587283,"Millet, Potato, Corn",1091,Organic,955 – 2500
+Township_132,Ayeyarwady,17.536482,95.377283,"Chickpea, Rice, Sunflower",1277,Chemical,700 – 2350
+Township_133,Bago,18.623482,96.295283,"Maize, Rice, Sugarcane",1344,Hybrid,1150 – 3200
+Township_134,Magway,20.184482,94.877283,"Beans, Sesame, Groundnut",1088,Chemical,1100 – 3350
+Township_135,Kayah,18.778482,97.528283,"Groundnut, Rice, Sesame",1341,Organic,1350 – 3550
+Township_136,Kayin,16.889482,97.645283,"Banana, Rice, Cassava",1431,Chemical,860 – 2750
+Township_137,Mon,16.582482,97.542283,"Rubber, Cashew, Betel Nut",1559,Organic,1400 – 3900
+Township_138,Ayeyarwady,17.625482,95.403283,"Rice, Chickpea, Sunflower",1270,Hybrid,700 – 2350
+Township_139,Naypyidaw,19.773482,96.111283,"Vegetables, Mango, Paddy",1339,Chemical,1800 – 3150
+Township_140,Shan,21.024482,97.037283,"Tea, Potato, Strawberry",1454,Organic,1600 – 4150
+Township_141,Yangon,16.777482,96.168283,"Vegetables, Paddy, Lentil",1727,Chemical,1300 – 2900
+Township_142,Tanintharyi,12.977482,99.873283,"Rubber, Durian, Oil Palm",1584,Organic,1500 – 3800
+Township_143,Rakhine,20.390482,93.330283,"Rice, Chili, Areca Nut",1176,Hybrid,810 – 2750
+Township_144,Chin,21.200482,93.581283,"Potato, Corn, Millet",1035,Organic,900 – 2450
+Township_145,Ayeyarwady,17.502482,95.364283,"Chickpea, Rice, Sunflower",1285,Chemical,700 – 2300
+Township_146,Bago,18.553482,96.276283,"Sugarcane, Rice, Maize",1366,Hybrid,1100 – 3200
+Township_147,Magway,20.153482,94.929283,"Sesame, Beans, Groundnut",1096,Chemical,1150 – 3400
+Township_148,Kayah,18.787482,97.515283,"Sesame, Groundnut, Rice",1364,Organic,1300 – 3550
+Township_149,Kayin,16.881482,97.631283,"Banana, Cassava, Rice",1414,Chemical,900 – 2650
+Township_150,Mon,16.588482,97.546283,"Cashew, Rubber, Betel Nut",1558,Organic,1500 – 3950
+Township_151,Ayeyarwady,17.618482,95.421283,"Rice, Chickpea, Sunflower",1259,Hybrid,700 – 2300
+Township_152,Naypyidaw,19.763482,96.097283,"Mango, Vegetables, Paddy",1331,Chemical,1750 – 3050
+Township_153,Shan,21.013482,97.038283,"Tea, Potato, Strawberry",1445,Organic,1550 – 4050
+Township_154,Yangon,16.781482,96.176283,"Paddy, Vegetables, Lentil",1732,Chemical,1250 – 2900
+Township_155,Tanintharyi,12.969482,99.869283,"Oil Palm, Rubber, Durian",1605,Organic,1450 – 3750
+Township_156,Rakhine,20.381482,93.336283,"Areca Nut, Chili, Rice",1195,Hybrid,825 – 2800
+Township_157,Chin,21.173482,93.586283,"Millet, Potato, Corn",1090,Organic,955 – 2500
+Township_158,Ayeyarwady,17.535482,95.376283,"Chickpea, Rice, Sunflower",1276,Chemical,700 – 2350
+Township_159,Bago,18.622482,96.294283,"Maize, Rice, Sugarcane",1342,Hybrid,1150 – 3200
+Township_160,Magway,20.182482,94.876283,"Beans, Sesame, Groundnut",1087,Chemical,1100 – 3350
+Township_161,Kayah,18.777482,97.527283,"Groundnut, Rice, Sesame",1339,Organic,1350 – 3550
+Township_162,Kayin,16.888482,97.644283,"Banana, Rice, Cassava",1429,Chemical,860 – 2750
+Township_163,Mon,16.581482,97.541283,"Rubber, Cashew, Betel Nut",1556,Organic,1400 – 3900
+Township_164,Ayeyarwady,17.624482,95.402283,"Rice, Chickpea, Sunflower",1268,Hybrid,700 – 2350
+Township_165,Naypyidaw,19.772482,96.110283,"Vegetables, Mango, Paddy",1337,Chemical,1800 – 3150
+Township_166,Shan,21.023482,97.036283,"Tea, Potato, Strawberry",1451,Organic,1600 – 4150
+Township_167,Yangon,16.776482,96.167283,"Vegetables, Paddy, Lentil",1726,Chemical,1300 – 2900
+Township_168,Tanintharyi,12.976482,99.872283,"Rubber, Durian, Oil Palm",1581,Organic,1500 – 3800
+Township_169,Rakhine,20.389482,93.329283,"Rice, Chili, Areca Nut",1173,Hybrid,810 – 2750
+Township_170,Chin,21.199482,93.579283,"Potato, Corn, Millet",1032,Organic,900 – 2450
+Township_171,Ayeyarwady,17.501482,95.363283,"Chickpea, Rice, Sunflower",1282,Chemical,700 – 2300
+Township_172,Bago,18.551482,96.275283,"Sugarcane, Rice, Maize",1363,Hybrid,1100 – 3200
+Township_173,Magway,20.152482,94.928283,"Sesame, Beans, Groundnut",1093,Chemical,1150 – 3400
+Township_174,Kayah,18.785482,97.512283,"Sesame, Groundnut, Rice",1361,Organic,1300 – 3550
+Township_175,Kayin,16.880482,97.630283,"Banana, Cassava, Rice",1412,Chemical,900 – 2650
+Township_176,Mon,16.587482,97.545283,"Cashew, Rubber, Betel Nut",1555,Organic,1500 – 3950
+Township_177,Ayeyarwady,17.616482,95.420283,"Rice, Chickpea, Sunflower",1254,Hybrid,700 – 2300
+Township_178,Naypyidaw,19.761482,96.096283,"Mango, Vegetables, Paddy",1329,Chemical,1750 – 3050
+Township_179,Shan,21.012482,97.037283,"Tea, Potato, Strawberry",1442,Organic,1550 – 4050
+Township_180,Yangon,16.779482,96.175283,"Paddy, Vegetables, Lentil",1728,Chemical,1250 – 2900
+Township_181,Tanintharyi,12.968482,99.868283,"Oil Palm, Rubber, Durian",1602,Organic,1450 – 3750
+Township_182,Rakhine,20.380482,93.335283,"Areca Nut, Chili, Rice",1192,Hybrid,825 – 2800
+Township_183,Chin,21.172482,93.585283,"Millet, Potato, Corn",1088,Organic,955 – 2500
+Township_184,Ayeyarwady,17.534482,95.375283,"Chickpea, Rice, Sunflower",1271,Chemical,700 – 2350
+Township_185,Bago,18.620482,96.293283,"Maize, Rice, Sugarcane",1338,Hybrid,1150 – 3200
+Township_186,Magway,20.179482,94.873283,"Beans, Sesame, Groundnut",1083,Chemical,1100 – 3350
+Township_187,Kayah,18.776482,97.526283,"Groundnut, Rice, Sesame",1337,Organic,1350 – 3550
+Township_188,Kayin,16.887482,97.643283,"Banana, Rice, Cassava",1427,Chemical,860 – 2750
+Township_189,Mon,16.580482,97.540283,"Rubber, Cashew, Betel Nut",1553,Organic,1400 – 3900
+Township_190,Ayeyarwady,17.623482,95.401283,"Rice, Chickpea, Sunflower",1265,Hybrid,700 – 2350
+Township_191,Naypyidaw,19.771482,96.109283,"Vegetables, Mango, Paddy",1336,Chemical,1800 – 3150
+Township_192,Shan,21.022482,97.035283,"Tea, Potato, Strawberry",1449,Organic,1600 – 4150
+Township_193,Yangon,16.775482,96.166283,"Vegetables, Paddy, Lentil",1717,Chemical,1300 – 2900
+Township_194,Tanintharyi,12.973482,99.869283,"Rubber, Durian, Oil Palm",1573,Organic,1500 – 3800
+Township_195,Rakhine,20.385482,93.326283,"Rice, Chili, Areca Nut",1164,Hybrid,810 – 2750
+Township_196,Chin,21.196482,93.577283,"Potato, Corn, Millet",1024,Organic,900 – 2450
+Township_197,Ayeyarwady,17.498482,95.360283,"Chickpea, Rice, Sunflower",1274,Chemical,700 – 2300
+Township_198,Bago,18.546482,96.272283,"Sugarcane, Rice, Maize",1355,Hybrid,1100 – 3200
+Township_199,Magway,20.148482,94.925283,"Sesame, Beans, Groundnut",1083,Chemical,1150 – 3400
+Township_200,Kayah,18.779482,97.511283,"Sesame, Groundnut, Rice",1355,Organic,1300 – 3550
+Township_201,Kayin,16.877482,97.626283,"Banana, Cassava, Rice",1406,Chemical,900 – 2650
+Township_202,Mon,16.584482,97.542283,"Cashew, Rubber, Betel Nut",1543,Organic,1500 – 3950
+Township_203,Ayeyarwady,17.613482,95.417283,"Rice, Chickpea, Sunflower",1246,Hybrid,700 – 2300
+Township_204,Naypyidaw,19.758482,96.093283,"Mango, Vegetables, Paddy",1321,Chemical,1750 – 3050
+Township_205,Shan,21.009482,97.034283,"Tea, Potato, Strawberry",1434,Organic,1550 – 4050
+Township_206,Yangon,16.776482,96.172283,"Paddy, Vegetables, Lentil",1714,Chemical,1250 – 2900
+Township_207,Tanintharyi,12.965482,99.865283,"Oil Palm, Rubber, Durian",1593,Organic,1450 – 3750
+Township_208,Rakhine,20.377482,93.332283,"Areca Nut, Chili, Rice",1184,Hybrid,825 – 2800
+Township_209,Chin,21.169482,93.581283,"Millet, Potato, Corn",1078,Organic,955 – 2500
+Township_210,Ayeyarwady,17.531482,95.372283,"Chickpea, Rice, Sunflower",1261,Chemical,700 – 2350
+Township_211,Bago,18.614482,96.290283,"Maize, Rice, Sugarcane",1330,Hybrid,1150 – 3200
+Township_212,Magway,20.176482,94.872283,"Beans, Sesame, Groundnut",1076,Chemical,1100 – 3350
+Township_213,Kayah,18.773482,97.523283,"Groundnut, Rice, Sesame",1328,Organic,1350 – 3550
+Township_214,Kayin,16.884482,97.640283,"Banana, Rice, Cassava",1420,Chemical,860 – 2750
+Township_215,Mon,16.577482,97.537283,"Rubber, Cashew, Betel Nut",1537,Organic,1400 – 3900
+Township_216,Ayeyarwady,17.619482,95.398283,"Rice, Chickpea, Sunflower",1257,Hybrid,700 – 2350
+Township_217,Naypyidaw,19.768482,96.106283,"Vegetables, Mango, Paddy",1329,Chemical,1800 – 3150
+Township_218,Shan,21.018482,97.031283,"Tea, Potato, Strawberry",1438,Organic,1600 – 4150
+Township_219,Yangon,16.771482,96.162283,"Vegetables, Paddy, Lentil",1710,Chemical,1300 – 2900
+Township_220,Tanintharyi,12.970482,99.867283,"Rubber, Durian, Oil Palm",1569,Organic,1500 – 3800
+Township_221,Rakhine,20.383482,93.325283,"Rice, Chili, Areca Nut",1160,Hybrid,810 – 2750
+Township_222,Chin,21.194482,93.575283,"Potato, Corn, Millet",1020,Organic,900 – 2450
+Township_223,Ayeyarwady,17.497482,95.359283,"Chickpea, Rice, Sunflower",1269,Chemical,700 – 2300
+Township_224,Bago,18.545482,96.271283,"Sugarcane, Rice, Maize",1350,Hybrid,1100 – 3200
+Township_225,Magway,20.147482,94.924283,"Sesame, Beans, Groundnut",1078,Chemical,1150 – 3400
+Township_226,Kayah,18.778482,97.510283,"Sesame, Groundnut, Rice",1353,Organic,1300 – 3550
+Township_227,Kayin,16.876482,97.625283,"Banana, Cassava, Rice",1404,Chemical,900 – 2650
+Township_228,Mon,16.583482,97.541283,"Cashew, Rubber, Betel Nut",1539,Organic,1500 – 3950
+Township_229,Ayeyarwady,17.612482,95.416283,"Rice, Chickpea, Sunflower",1244,Hybrid,700 – 2300
+Township_230,Naypyidaw,19.757482,96.092283,"Mango, Vegetables, Paddy",1319,Chemical,1750 – 3050
+Township_231,Shan,21.008482,97.033283,"Tea, Potato, Strawberry",1431,Organic,1550 – 4050
+Township_232,Yangon,16.775482,96.171283,"Paddy, Vegetables, Lentil",1709,Chemical,1250 – 2900
+Township_233,Tanintharyi,12.964482,99.864283,"Oil Palm, Rubber, Durian",1590,Organic,1450 – 3750
+Township_234,Rakhine,20.376482,93.331283,"Areca Nut, Chili, Rice",1181,Hybrid,825 – 2800
+Township_235,Chin,21.168482,93.581283,"Millet, Potato, Corn",1075,Organic,955 – 2500
+Township_236,Ayeyarwady,17.530482,95.371283,"Chickpea, Rice, Sunflower",1258,Chemical,700 – 2350
+Township_237,Bago,18.613482,96.289283,"Maize, Rice, Sugarcane",1327,Hybrid,1150 – 3200
+Township_238,Magway,20.175482,94.871283,"Beans, Sesame, Groundnut",1073,Chemical,1100 – 3350
+Township_239,Kayah,18.772482,97.522283,"Groundnut, Rice, Sesame",1325,Organic,1350 – 3550
+Township_240,Kayin,16.883482,97.639283,"Banana, Rice, Cassava",1418,Chemical,860 – 2750
+Township_241,Mon,16.576482,97.536283,"Rubber, Cashew, Betel Nut",1535,Organic,1400 – 3900
+Township_242,Ayeyarwady,17.619482,95.397283,"Rice, Chickpea, Sunflower",1254,Hybrid,700 – 2350
+Township_243,Naypyidaw,19.766482,96.104283,"Vegetables, Mango, Paddy",1325,Chemical,1800 – 3150
+Township_244,Shan,21.017482,97.030283,"Tea, Potato, Strawberry",1435,Organic,1600 – 4150
+Township_245,Yangon,16.770482,96.161283,"Vegetables, Paddy, Lentil",1707,Chemical,1300 – 2900
+Township_246,Tanintharyi,12.970482,99.867283,"Rubber, Durian, Oil Palm",1565,Organic,1500 – 3800
+Township_247,Rakhine,20.383482,93.324283,"Rice, Chili, Areca Nut",1160,Hybrid,810 – 2750
+Township_248,Chin,21.193482,93.574283,"Potato, Corn, Millet",1018,Organic,900 – 2450
+Township_249,Ayeyarwady,17.495482,95.358283,"Chickpea, Rice, Sunflower",1267,Chemical,700 – 2300
+Township_250,Bago,18.544482,96.270283,"Sugarcane, Rice, Maize",1350,Hybrid,1100 – 3200
+Township_251,Magway,20.146482,94.923283,"Sesame, Beans, Groundnut",1078,Chemical,1150 – 3400
+Township_252,Kayah,18.777482,97.509283,"Sesame, Groundnut, Rice",1350,Organic,1300 – 3550
+Township_253,Kayin,16.875482,97.624283,"Banana, Cassava, Rice",1402,Chemical,900 – 2650
+Township_254,Mon,16.582482,97.540283,"Cashew, Rubber, Betel Nut",1535,Organic,1500 – 3950
+Township_255,Ayeyarwady,17.611482,95.415283,"Rice, Chickpea, Sunflower",1242,Hybrid,700 – 2300
+Township_256,Naypyidaw,19.756482,96.091283,"Mango, Vegetables, Paddy",1317,Chemical,1750 – 3050
+Township_257,Shan,21.007482,97.032283,"Tea, Potato, Strawberry",1429,Organic,1550 – 4050
+Township_258,Yangon,16.774482,96.170283,"Paddy, Vegetables, Lentil",1709,Chemical,1250 – 2900
+Township_259,Tanintharyi,12.963482,99.863283,"Oil Palm, Rubber, Durian",1587,Organic,1450 – 3750
+Township_260,Rakhine,20.375482,93.330283,"Areca Nut, Chili, Rice",1179,Hybrid,825 – 2800
+Township_261,Chin,21.167482,93.580283,"Millet, Potato, Corn",1073,Organic,955 – 2500
+Township_262,Ayeyarwady,17.531482,95.370283,"Chickpea, Rice, Sunflower",1256,Chemical,700 – 2350
+Township_263,Bago,18.612482,96.288283,"Maize, Rice, Sugarcane",1324,Hybrid,1150 – 3200
+Township_264,Magway,20.174482,94.870283,"Beans, Sesame, Groundnut",1070,Chemical,1100 – 3350
+Township_265,Kayah,18.771482,97.521283,"Groundnut, Rice, Sesame",1325,Organic,1350 – 3550
+Township_266,Kayin,16.882482,97.638283,"Banana, Rice, Cassava",1415,Chemical,860 – 2750
+Township_267,Mon,16.575482,97.535283,"Rubber, Cashew, Betel Nut",1532,Organic,1400 – 3900
+Township_268,Ayeyarwady,17.618482,95.396283,"Rice, Chickpea, Sunflower",1252,Hybrid,700 – 2350
+Township_269,Naypyidaw,19.766482,96.104283,"Vegetables, Mango, Paddy",1325,Chemical,1800 – 3150
+Township_270,Shan,21.017482,97.030283,"Tea, Potato, Strawberry",1435,Organic,1600 – 4150
+Township_271,Yangon,16.770482,96.161283,"Vegetables, Paddy, Lentil",1707,Chemical,1300 – 2900
+Township_272,Tanintharyi,12.970482,99.867283,"Rubber, Durian, Oil Palm",1565,Organic,1500 – 3800
+Township_273,Rakhine,20.383482,93.323283,"Rice, Chili, Areca Nut",1160,Hybrid,810 – 2750
+Township_274,Chin,21.193482,93.574283,"Potato, Corn, Millet",1018,Organic,900 – 2450
+Township_275,Ayeyarwady,17.495482,95.358283,"Chickpea, Rice, Sunflower",1267,Chemical,700 – 2300
+Township_276,Bago,18.544482,96.270283,"Sugarcane, Rice, Maize",1350,Hybrid,1100 – 3200
+Township_277,Magway,20.146482,94.923283,"Sesame, Beans, Groundnut",1078,Chemical,1150 – 3400
+Township_278,Kayah,18.778482,97.510283,"Sesame, Groundnut, Rice",1353,Organic,1300 – 3550
+Township_279,Kayin,16.876482,97.625283,"Banana, Cassava, Rice",1404,Chemical,900 – 2650
+Township_280,Mon,16.583482,97.541283,"Cashew, Rubber, Betel Nut",1539,Organic,1500 – 3950
+Township_281,Ayeyarwady,17.612482,95.416283,"Rice, Chickpea, Sunflower",1244,Hybrid,700 – 2300
+Township_282,Naypyidaw,19.757482,96.092283,"Mango, Vegetables, Paddy",1319,Chemical,1750 – 3050
+Township_283,Shan,21.008482,97.033283,"Tea, Potato, Strawberry",1431,Organic,1550 – 4050
+Township_284,Yangon,16.775482,96.171283,"Paddy, Vegetables, Lentil",1709,Chemical,1250 – 2900
+Township_285,Tanintharyi,12.964482,99.864283,"Oil Palm, Rubber, Durian",1590,Organic,1450 – 3750
+Township_286,Rakhine,20.376482,93.331283,"Areca Nut, Chili, Rice",1181,Hybrid,825 – 2800
+Township_287,Chin,21.168482,93.581283,"Millet, Potato, Corn",1075,Organic,955 – 2500
+Township_288,Ayeyarwady,17.530482,95.371283,"Chickpea, Rice, Sunflower",1258,Chemical,700 – 2350
+Township_289,Bago,18.613482,96.289283,"Maize, Rice, Sugarcane",1327,Hybrid,1150 – 3200
+Township_290,Magway,20.175482,94.871283,"Beans, Sesame, Groundnut",1073,Chemical,1100 – 3350
+Township_291,Kayah,18.772482,97.522283,"Groundnut, Rice, Sesame",1325,Organic,1350 – 3550
+Township_292,Kayin,16.883482,97.639283,"Banana, Rice, Cassava",1415,Chemical,860 – 2750
+Township_293,Mon,16.575482,97.535283,"Rubber, Cashew, Betel Nut",1532,Organic,1400 – 3900
+Township_294,Ayeyarwady,17.619482,95.397283,"Rice, Chickpea, Sunflower",1254,Hybrid,700 – 2350
+Township_295,Naypyidaw,19.766482,96.104283,"Vegetables, Mango, Paddy",1325,Chemical,1800 – 3150
+Township_296,Shan,21.017482,97.030283,"Tea, Potato, Strawberry",1435,Organic,1600 – 4150
+Township_297,Yangon,16.770482,96.161283,"Vegetables, Paddy, Lentil",1707,Chemical,1300 – 2900
+Township_298,Tanintharyi,12.970482,99.867283,"Rubber, Durian, Oil Palm",1565,Organic,1500 – 3800
+Township_299,Rakhine,20.383482,93.324283,"Rice, Chili, Areca Nut",1160,Hybrid,810 – 2750
+Township_300,Chin,21.193482,93.574283,"Potato, Corn, Millet",1018,Organic,900 – 2450
+Township_301,Ayeyarwady,17.495482,95.358283,"Chickpea, Rice, Sunflower",1267,Chemical,700 – 2300
+Township_302,Bago,18.544482,96.270283,"Sugarcane, Rice, Maize",1350,Hybrid,1100 – 3200
+Township_303,Magway,20.146482,94.923283,"Sesame, Beans, Groundnut",1078,Chemical,1150 – 3400
+Township_304,Kayah,18.778482,97.510283,"Sesame, Groundnut, Rice",1353,Organic,1300 – 3550
+Township_305,Kayin,16.876482,97.625283,"Banana, Cassava, Rice",1404,Chemical,900 – 2650
+Township_306,Mon,16.583482,97.541283,"Cashew, Rubber, Betel Nut",1539,Organic,1500 – 3950
+Township_307,Ayeyarwady,17.612482,95.416283,"Rice, Chickpea, Sunflower",1244,Hybrid,700 – 2300
+Township_308,Naypyidaw,19.757482,96.092283,"Mango, Vegetables, Paddy",1319,Chemical,1750 – 3050
+Township_309,Shan,21.008482,97.033283,"Tea, Potato, Strawberry",1431,Organic,1550 – 4050
+Township_310,Yangon,16.775482,96.171283,"Paddy, Vegetables, Lentil",1709,Chemical,1250 – 2900
+Township_311,Tanintharyi,12.964482,99.864283,"Oil Palm, Rubber, Durian",1590,Organic,1450 – 3750
+Township_312,Rakhine,20.376482,93.331283,"Areca Nut, Chili, Rice",1181,Hybrid,825 – 2800
+Township_313,Chin,21.168482,93.581283,"Millet, Potato, Corn",1075,Organic,955 – 2500
+Township_314,Ayeyarwady,17.530482,95.371283,"Chickpea, Rice, Sunflower",1258,Chemical,700 – 2350
+Township_315,Bago,18.613482,96.289283,"Maize, Rice, Sugarcane",1327,Hybrid,1150 – 3200
+Township_316,Magway,20.175482,94.871283,"Beans, Sesame, Groundnut",1073,Chemical,1100 – 3350
+Township_317,Kayah,18.772482,97.523283,"Groundnut, Rice, Sesame",1325,Organic,1350 – 3550
+Township_318,Kayin,16.883482,97.640283,"Banana, Rice, Cassava",1415,Chemical,860 – 2750
+Township_319,Mon,16.575482,97.535283,"Rubber, Cashew, Betel Nut",1532,Organic,1400 – 3900
+Township_320,Ayeyarwady,17.619482,95.397283,"Rice, Chickpea, Sunflower",1254,Hybrid,700 – 2350
+Township_321,Naypyidaw,19.766482,96.104283,"Vegetables, Mango, Paddy",1325,Chemical,1800 – 3150
+Township_322,Shan,21.017482,97.030283,"Tea, Potato, Strawberry",1435,Organic,1600 – 4150
+Township_323,Yangon,16.770482,96.161283,"Vegetables, Paddy, Lentil",1707,Chemical,1300 – 2900
+Township_324,Tanintharyi,12.970482,99.867283,"Rubber, Durian, Oil Palm",1565,Organic,1500 – 3800
+Township_325,Rakhine,20.383482,93.324283,"Rice, Chili, Areca Nut",1160,Hybrid,810 – 2750
+Township_326,Chin,21.193482,93.574283,"Potato, Corn, Millet",1018,Organic,900 – 2450
+Township_327,Ayeyarwady,17.495482,95.358283,"Chickpea, Rice, Sunflower",1267,Chemical,700 – 2300
+Township_328,Mon,16.03592,97.69835,"Rubber, Cashew, Betel Nut",1553,Organic,1400 – 3900
+Township_329,Ayeyarwady,17.135483,95.115839,"Chickpea, Rice, Sunflower",1263,Hybrid,700 – 2250
+Township_330,Naypyidaw,19.271624,96.806348,"Vegetables, Paddy, Mango",1325,Chemical,1800 – 3100
+Pyinmana,Naypyidaw,19.745,96.2083,"Rice, Sugarcane, Vegetables",1300,Organic,1700-3000
