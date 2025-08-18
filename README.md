@@ -10,42 +10,44 @@ This provides users with actionable insights to maximize yield and profitability
 ⚙️ Core Features
 
 🌱User Input Collection
-Location-based parameters
 
-Weather conditions (temperature, humidity, rainfall, etc.)
+-Location-based parameters
 
-Greenhouse area (land size)
+-Weather conditions (temperature, humidity, rainfall, etc.)
 
-Water availability per day
+-Greenhouse area (land size)
 
-Fertilizer type
+-Water availability per day
+
+-Fertilizer type
 
 🌱Crop Recommendation Engine
 
-Matches user inputs against dataset patterns
+-Matches user inputs against dataset patterns
 
-Suggests top three crops suitable for the user’s conditions
+-Suggests top three crops suitable for the user’s conditions
 
-Considers environmental and resource constraints
+-Considers environmental and resource constraints
 
 🌱Economic Analysis
 
-Calculates estimated total cost of cultivation
+-Calculates estimated total cost of cultivation
 
-Predicts expected revenue based on yield and market prices
+-Predicts expected revenue based on yield and market prices
 
-Provides profit estimation for each recommended crop
+-Provides profit estimation for each recommended crop
 
 🌱Machine Learning Models
 
-Linear Regression Model: For predicting costs and yields
+-Linear Regression Model: For predicting costs and yields
 
-Random Forest Model: For accurate crop recommendation and profitability analysis
+-Random Forest Model: For accurate crop recommendation and profitability analysis
 
 🌱Decision Support
 
-Helps farmers choose crops with the highest profit potential
+-Helps farmers choose crops with the highest profit potential
 
-Reduces risks of crop failure due to unsuitable conditions
+-Reduces risks of crop failure due to unsuitable conditions
 
-Enhances sustainable and data-driven agriculture
+-Enhances sustainable and data-driven agriculture
+
